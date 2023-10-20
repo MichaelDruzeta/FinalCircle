@@ -15,7 +15,7 @@ body {
 }
 
 /* NAVIGATION TOP-BAR DARK MODE */
-.top-bar {
+header {
   margin-top: 1rem;
 }
 
@@ -30,7 +30,7 @@ body {
   height: auto;
 }
 
-.top-bar,
+header,
 nav,
 .nav-bar {
   display: flex;
@@ -71,6 +71,7 @@ a:hover {
 .contact-button:hover {
   background-color: #ffffff;
   transition: 0.5s ease;
+  color: black;
 }
 
 .left {

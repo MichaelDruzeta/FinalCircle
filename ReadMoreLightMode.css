@@ -56,6 +56,7 @@ a:hover {
 .contact-button:hover {
   background-color: #799dab;
   transition: 0.5s ease;
+  color: rgb(255, 255, 255);
 }
 
 .left {
