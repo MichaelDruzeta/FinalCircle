@@ -1,0 +1,168 @@
+/* DARK MODE */
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: normal;
+}
+
+body {
+  border-top: 1rem solid black;
+  margin: 0;
+  background-color: #799dab;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-style: normal;
+}
+
+/* NAVIGATION TOP-BAR DARK MODE */
+header {
+  margin-top: 1rem;
+}
+
+.logo {
+  width: 12rem;
+  height: auto;
+  margin-left: 1rem;
+}
+
+.logo:hover {
+  width: 12.5rem;
+  height: auto;
+}
+
+header,
+nav,
+.nav-bar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+nav {
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.icon {
+  width: 2rem;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.636) 1px 0 4px;
+  transition: 0.5s ease;
+}
+
+.contact-button {
+  background-color: #c7eaf8;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background-color: #ffffff;
+  transition: 0.5s ease;
+  color: black;
+}
+
+.left {
+  margin-left: 2rem;
+  gap: 4rem;
+}
+
+.nav-bar:last-child {
+  margin-right: 1rem;
+}
+
+/* CONTENT ABOUT THE PRODUCT DARK MODE */
+main {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.product-img {
+  width: 22rem;
+  height: auto;
+}
+
+.product {
+  width: 24rem;
+}
+
+.product-header {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.product-description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+/* FOOTER ABOUT THE SOCIAL-MEDIA DARK MODE */
+footer {
+  background-color: #000000;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: fit-content;
+}
+
+.ReadMore-footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 50rem;
+  margin: auto;
+}
+
+.follow {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  color: #c7eaf8;
+  padding: 1rem 0 0 0;
+  text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.social-block {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social-img {
+  height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.social-name,
+.social-id {
+  color: #799dab;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.copyright {
+  color: white;
+  font-weight: 400;
+  font-size: 0.5rem;
+  padding: 0.2rem;
+  background-color: #000;
+  margin: 0;
+  text-align: center;
+}
