@@ -227,10 +227,10 @@
     font-weight: bold;
     
   }
-  .right{
+  /*.right{
     margin-right: 2rem;
     padding-right: 18rem;
-  }
+  }*/
   .nav-bar:last-child {
     margin-right: 1rem;
   }
