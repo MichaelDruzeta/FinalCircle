@@ -3,11 +3,14 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1rem;
   font-style: normal;
-  font-weight: 500;
   line-height: normal;
 }
 
 /*------------------------Color split in the background------------------------*/
+
+.black-bar {
+  background-color: #000;
+}
 
 body{
   margin: 0;
@@ -16,8 +19,8 @@ body{
   background: linear-gradient(
     to top,
     #799dab 0%,
-    #799dab 58.5%,
-    #c7eaf8 58.5%,
+    #799dab 66%,
+    #c7eaf8 66%,
     #c7eaf8 100%
     );
 
@@ -94,10 +97,8 @@ margin-right: 1rem;
 .conTxt {
   border: solid none;
   width: 36rem;
-  margin: auto;
-  padding-left: 25rem;
-  padding-right: 25rem;
   text-align: center;
+  margin: 0 auto;
 }
 
 /*------------------------Statistics------------------------*/
@@ -113,11 +114,6 @@ margin-right: 1rem;
 }
 
 .desc {
-  border: solid none;
-  margin: 1rem;
-  padding-left: 25rem;
-  padding-right: 25rem;
-  padding-bottom: 1rem;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -160,11 +156,11 @@ margin-right: 1rem;
 }
 
 .bottomTxt{
-     margin-bottom: 5%;
-     padding-bottom: 2%;
-     padding-left: 1em;
-     padding-right: 1em;
-     color: white;
+  margin-bottom: 5%;
+  padding-bottom: 2%;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: white;
 }
 
 /*------------------------FAQ------------------------*/
@@ -178,9 +174,9 @@ margin-right: 1rem;
   border-radius: 1rem;
   background-color: #000;
 
-  position: relative;
-  left: 26rem;
-  top: 5rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .titleFaq {
@@ -189,7 +185,7 @@ margin-right: 1rem;
   color: #799dab;
 }
 
-.AboutUsDrk-faqQ {
+.faqQ {
   border: none;
   padding: 2rem;
   font-weight: bold;
@@ -218,6 +214,7 @@ margin-right: 1rem;
     text-align: center;
     border-radius: 1rem;
     background-color: #799dab;
+    height: 1.5rem;
 
     display: flex;
     justify-content: center;
@@ -228,13 +225,6 @@ margin-right: 1rem;
     z-index: 5;
 }
 
-.desc {
-border: solid none;
-margin: 1rem;
-padding-left: 25rem;
-padding-right: 25rem;
-}
-
   .faqAtxt {
     padding: 0em;
     margin-bottom: -3rem;
@@ -243,50 +233,54 @@ padding-right: 25rem;
 
 /*------------------------Footer------------------------*/
 
-.Footer {
-background-color: #000;
-height: 110%;
-width: 101%;
-margin-top: 10rem;
-margin-bottom: -1rem;
-margin-left: -1rem;
-}
-.Footer-content {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-width: 50rem;
-margin: auto;
-}
-.follow {
-grid-column: 1/-1;
-text-align: center;
-margin-bottom: 1rem;
-padding-top: 0.5rem;
-color: #799dab;
-padding: 1rem 0 0 0;
-text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-}
-.social-block {
-display: flex;
-gap: 1rem;
-justify-content: center;
-}
-.social-img {
-height: 2.5rem;
-margin-bottom: 1rem;
-}
-.social-name,
-.social-id {
-font-size: 0.8rem;
-color: white;
-}
-.copyright {
-color: white;
-font-weight: 400;
-font-size: 0.5rem;
-padding: 0.2rem;
-background-color: #000;
-margin: 0;
-text-align: center;
+footer {
+  margin-top: 5rem;
+  background-color: #c7eaf8;
+  width: 100%;
+  bottom: 0;
 }
 
+.ReadMore-footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 50rem;
+  margin: auto;
+}
+
+.follow {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  color: #799dab;
+  padding: 1rem 0 0 0;
+  text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.social-block {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social-img {
+  height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.social-name,
+.social-id {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.copyright {
+  color: white;
+  font-weight: 400;
+  font-size: 0.5rem;
+  padding: 0.2rem;
+  background-color: #000;
+  margin: 0;
+  text-align: center;
+}
