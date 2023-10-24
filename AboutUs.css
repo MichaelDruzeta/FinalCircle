@@ -3,12 +3,14 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1rem;
     font-style: normal;
-    font-weight: 500;
     line-height: normal;
-
   }
 
 /*------------------------Color split in the background------------------------*/
+
+.black-bar {
+  background-color: #000;
+}
 
 body {
   margin: 0;
@@ -95,10 +97,8 @@ a {
   .conTxt {
     border: solid none;
     width: 36rem;
-    margin: auto;
-    padding-left: 25rem;
-    padding-right: 25rem;
     text-align: center;
+    margin: 0 auto;
 }
 
   /*------------------------Statistics------------------------*/
@@ -114,11 +114,6 @@ a {
 }
 
   .desc {
-    border: solid none;
-    margin: 1rem;
-    padding-left: 25rem;
-    padding-right: 25rem;
-    padding-bottom: 1rem;
     font-size: 1.5rem;
     text-align: center;
   }
@@ -178,9 +173,9 @@ a {
     border-radius: 1rem;
     background-color: #c7eaf8;
 
-    position: relative;
-    left: 26rem;
-    top: 5rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .titleFaq {
@@ -200,6 +195,7 @@ a {
     border: none;
     padding: 2rem;
     text-align: center;
+    font-weight: bold;
     border-radius: 1rem;
     background-color: white;
 
@@ -234,57 +230,57 @@ a {
       z-index: 5;
 }
 
-.desc {
-  border: solid none;
-  margin: 1rem;
-  padding-left: 25rem;
-  padding-right: 25rem;
-}
-
-    .faqAtxt {
+.faqAtxt {
       padding: 0em;
       margin-bottom: -3rem;
       color:white;
-    }
+      text-align: center;
+}
 
 /*------------------------Footer------------------------*/
 
-.Footer {
+footer {
+  margin-top: 5rem;
   background-color: #c7eaf8;
-  height: 110%;
-  width: 101%;
-  margin-top: 10rem;
-  margin-bottom: -1rem;
-  margin-left: -1rem;
+  width: 100%;
+  bottom: 0;
 }
-.Footer-content {
+
+.ReadMore-footer-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 50rem;
   margin: auto;
 }
+
 .follow {
   grid-column: 1/-1;
   text-align: center;
+  margin-top: 0;
   margin-bottom: 1rem;
   padding-top: 0.5rem;
   color: #799dab;
   padding: 1rem 0 0 0;
   text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
+
 .social-block {
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
+
 .social-img {
   height: 2.5rem;
   margin-bottom: 1rem;
 }
+
 .social-name,
 .social-id {
   font-size: 0.8rem;
+  margin: 0;
 }
+
 .copyright {
   color: white;
   font-weight: 400;
@@ -294,4 +290,3 @@ a {
   margin: 0;
   text-align: center;
 }
-
