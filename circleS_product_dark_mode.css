@@ -1,5 +1,5 @@
 * {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
   line-height: normal;
 
  
@@ -79,7 +79,7 @@ a {
 .product-details h3{
   color: rgba(199, 234,248,1);
   font-family: Libre Franklin;
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: 400;
   line-height: 12px;
   letter-spacing: 0em;
@@ -127,10 +127,9 @@ a {
 
 
 
-.content-service{
+.content-service .container > img{
     display: flex;
-    margin-left: 1%;
-    margin-top: 20px;
+    margin-top: 6px;
 }
 
 
@@ -160,9 +159,8 @@ a {
 .image {
     height: 500px;
     width: 500px;
-    
     margin-top: 1px;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .copyright-bar {
@@ -194,7 +192,8 @@ h3{
 }
 
 .line > .line1  {
-  width: 45%;
+  margin-left: 5rem;
+  width: 35%;
   display: flex;
   float: left;
   
@@ -202,7 +201,8 @@ h3{
 }
 
 .line > .line2 {
-  width: 45%;
+  margin-right: 5rem;
+  width: 35%;
   display: flex;
   float: right;
   
@@ -251,6 +251,7 @@ h3{
     display: flex;
     gap: 1rem;
     align-items: center;
+    
   }
   nav {
     justify-content: space-between;
