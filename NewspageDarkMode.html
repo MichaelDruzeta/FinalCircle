@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Newspagedark.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Newspagedark.css" rel="stylesheet" type="text/css" />
     <title>Newspage</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="top-bar">
       <img class="logo" src="Images\circle solutions_logo_02.png" alt="logo" />
       <nav>
@@ -28,6 +28,48 @@
         </div>
       </nav>
     </header>
+    <!-- POPUP SIGN-UP  -->
+    <section class="popup">
+      <div class="popup-content">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="close"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+
+        <h1 class="signUp-title">Sign up for Newsletter !</h1>
+        <p class="singUp-additional">
+          You will get only notifications about our activity and products.
+        </p>
+
+        <form action="POST" class="signUp-form">
+          <input class="email" type="email" placeholder="Email Address" />
+          <input class="submit" type="submit" value="Sign In" />
+        </form>
+      </div>
+      <script>
+        const popup = document.querySelector(".popup");
+        const close = document.querySelector(".close");
+
+        window.onload = function () {
+          setTimeout(function () {
+            popup.style.display = "block";
+          }, 4000);
+        };
+        close.addEventListener("click", () => {
+          popup.style.display = "none";
+        });
+      </script>
+    </section>
     <!--NEWSPAGE-->
     <div class="main">
       <article class="mini">
