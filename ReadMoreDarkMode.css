@@ -82,6 +82,39 @@ a:hover {
 .nav-bar:last-child {
   margin-right: 1rem;
 }
+/* LANGUAGE MENU SELECTOR */
+.lang {
+  background-color: #c7eaf8;
+  padding: 1rem;
+  list-style: none;
+
+  border-bottom-left-radius: 2rem;
+  border-left: 0.1rem solid #799dab;
+  border-bottom: 0.1rem solid #799dab;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: none;
+}
+
+.language-menu:hover .lang {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.lang img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.lang li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
 /* CONTENT ABOUT THE PRODUCT DARK MODE */
 main {
