@@ -1,16 +1,18 @@
-.light-mode * {
+* {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   line-height: normal;
-  
-
+  margin: 0;
+  padding: 0;
+  background-color: #799DAB;
 }
+
 body{
   border-top: 1rem solid black;
 }
 
 
 .product-details h2 {
-  color: #799DAB;
+  color: #000;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
@@ -24,7 +26,6 @@ body{
  line-height: 12px;
  letter-spacing: 0em;
  text-align: left;
-
 }
 
 
@@ -46,6 +47,7 @@ nav,
   display: flex;
   gap: 1rem;
   align-items: center;
+  font-weight: bold;
 }
 nav {
   justify-content: space-between;
@@ -57,15 +59,10 @@ nav {
 }
 a {
   text-decoration: none;
-  color:#000;
+  color:#c7eaf8;
 }
-.contact-button {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
-}
+
+
 .left {
   margin-left: 2rem;
   gap: 4rem;
@@ -79,24 +76,17 @@ a {
 
 
 .product-details p {
-    font-family: Libre Franklin;
-    margin: 0;
+    width: 30rem;
     text-align: left;
-    color: #000;
     font-size: 20px;
     line-height: 22px;
-    
+    margin-bottom: 1rem;
 }
 
 
 .product-details h3 {
-  font-family: Libre Franklin;
   font-size: 25px;
   font-weight: 400;
-  line-height: 12px;
-  letter-spacing: 0em;
-  text-align: left;
-  
 }
 
 
@@ -105,7 +95,7 @@ a {
 
 .product-details ul {
     list-style-type: none;
-    padding: 2px;
+    margin-left: 1rem;
 }
 
 .product-details ul li {
@@ -114,6 +104,7 @@ a {
 
 
 .pricing  {
+  margin-top: 1rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -124,8 +115,9 @@ a {
 
 
 .line > .line1  {
-  margin-left: 5rem;
-  width: 35%;
+  margin-left: 24.5rem;
+  margin-top: 0.7rem;
+  width: 20%;
   display: flex;
   float: left;
   
@@ -133,8 +125,9 @@ a {
 }
 
 .line > .line2 {
-  margin-right: 5rem;
-  width: 35%;
+  margin-right: 24.5rem;
+  margin-top: 0.7rem;
+  width: 20%;
   display: flex;
   float: right;
   
@@ -152,7 +145,7 @@ a {
     font-size: 20px;
     border-radius: 50px;
     border: none;
-    background: #799DAB;
+    background: #000;
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
     color: white;
     cursor: pointer;
@@ -171,12 +164,14 @@ a {
 h2 { 
   color: #799DAB ;
   font-size: 40px;
+  margin-top: 2rem;
 }
 
 .content-service {
     display: flex;
     justify-content: center; 
     align-items: flex-start; 
+    padding-right: 10rem;
 }
 
 
@@ -196,8 +191,8 @@ h2 {
 .image {
     height: 500px;
     width: 500px;
-    margin-top: 1px;
-    margin-left: 150px;
+    margin-left: 90px;
+    margin-right: 3rem;
 }
 
 .copyright-bar {
@@ -207,10 +202,10 @@ h2 {
     width: 100%;
     height: 16px;
     flex-shrink: 0;
-    background-color: #333; /* Change the background color to your preference */
+    background-color: #000; /* Change the background color to your preference */
     color: #fff; /* Change the text color to your preference */
     text-align: center;
-    padding: 8px 0; /* Add padding for vertical alignment */
+    margin-top: 3rem;
     font-size: 12px; /* Adjust the font size as needed */
 }
 
@@ -278,8 +273,8 @@ a {
 
 
 .contact-button {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: #c7eaf8;
+    color: black;
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
