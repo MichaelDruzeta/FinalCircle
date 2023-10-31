@@ -50,14 +50,20 @@
 
     <main>
       <h1 class="title">
-        Estás listo para llevar tu negocio al siguiente nivel?
+        ¿Estás listo para llevar tu negocio al siguiente nivel?
       </h1>
       <form action="" method="POST">
         <div class="input">
-          <input type="text" name="name" placeholder="Name" />
-          <input type="email" name="email" placeholder="Email" />
-          <input type="tel" name="" placeholder="Phone number" />
-          <input type="submit" name="Submit" class="submit" />
+          <input type="text" name="name" placeholder="Nombre" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="tel" name="" placeholder="Número de teléfono" required />
+          <input
+            type="submit"
+            value="Entregar"
+            name="Submit"
+            class="submit"
+            required
+          />
         </div>
       </form>
 

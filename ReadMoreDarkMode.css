@@ -25,11 +25,6 @@ header {
   margin-left: 1rem;
 }
 
-.logo:hover {
-  width: 12.5rem;
-  height: auto;
-}
-
 header,
 nav,
 .nav-bar {
