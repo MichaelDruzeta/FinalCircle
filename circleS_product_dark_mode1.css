@@ -31,6 +31,7 @@ body {
 /* NAVIGATION TOP-BAR  */
 .top-bar {
   margin-top: 1rem;
+  font-weight:bold;
 }
 .logo {
   width: 12rem;
@@ -43,34 +44,48 @@ nav,
   display: flex;
   gap: 1rem;
   align-items: center;
-  font-weight: bold;
 }
 nav {
   justify-content: space-between;
   flex-grow: 1;
 }
-.icon {
-  width: 2rem;
-  height: auto;
-}
+
 a {
   text-decoration: none;
   color: #000;
 }
+
+.icon {
+  width: 2rem;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
 .contact-button {
-  background-color: rgb(0, 0, 0);
-  color: white;
+  background-color: #c7eaf8;
+  color: black;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
 }
+
+.icon {
+  width: 2rem;
+  height: auto;
+}
+
 .left {
-  margin-left: 2rem;
+  margin-left: 0.6rem;
   gap: 4rem;
 }
+
 .nav-bar:last-child {
   margin-right: 1rem;
 }
+
 /* LANGUAGE MENU SELECTOR */
 .lang {
   background-color: #c7eaf8;
@@ -244,58 +259,3 @@ h3 {
 
 /**For the nav bar, icon and logo **/
 
-.top-bar {
-  margin-top: 1rem;
-}
-.logo {
-  width: 12rem;
-  height: auto;
-  margin-left: 1rem;
-}
-.top-bar,
-nav,
-.nav-bar {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
-nav {
-  justify-content: space-between;
-  flex-grow: 1;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-.icon {
-  width: 2rem;
-  height: auto;
-}
-
-a {
-  text-decoration: none;
-}
-
-.contact-button {
-  background-color: #c7eaf8;
-  color: black;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
-}
-
-.icon {
-  width: 2rem;
-  height: auto;
-}
-
-.left {
-  margin-left: 2rem;
-  gap: 4rem;
-}
-
-.nav-bar:last-child {
-  margin-right: 1rem;
-}
