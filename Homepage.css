@@ -12,6 +12,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   border-top: 1rem solid #799dab;
+  overflow: hidden;
 
 }
 
@@ -109,7 +110,7 @@ main{
   display: grid;
   grid-template-columns: 1fr 9fr 1fr;
   grid-template-rows: 3fr 1fr 2fr;
-  margin-top: 3.5rem;
+  margin-top: 5%;
   
 }
 .text1{
