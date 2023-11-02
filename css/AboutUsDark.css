@@ -71,7 +71,7 @@ header a:hover {
   color: black;
 }
 .left {
-  margin-left: 0.6rem;
+  margin-left: 2rem;
   gap: 4rem;
 }
 .nav-bar:last-child {

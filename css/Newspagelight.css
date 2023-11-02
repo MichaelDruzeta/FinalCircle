@@ -136,9 +136,7 @@ header a:hover {
 }
 /*NEWSLETTERPAGE*/
 .main {
-  /* margin-left: 17rem;
-  margin-right: 17rem; */
-  margin-top: 6rem;
+  margin-top: 2.5rem;
   margin-bottom: 6rem;
   display: grid;
   justify-content: center;
