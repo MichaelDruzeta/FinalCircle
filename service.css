@@ -12,6 +12,7 @@
   }
 .top-bar {
     margin-top: 1rem;
+    font-weight: bold;
   }
   .logo {
     width: 12rem;
