@@ -30,6 +30,7 @@ body {
 /* NAVIGATION TOP-BAR  */
 .top-bar {
   margin-top: 1rem;
+  font-weight: bold;
 }
 .logo {
   width: 12rem;
@@ -49,8 +50,9 @@ nav {
   flex-grow: 1;
 }
 .icon {
-  width: 2rem;
+  width: 12rem;
   height: auto;
+  margin-left: 1rem;
 }
 a {
   text-decoration: none;
@@ -69,6 +71,16 @@ a {
 }
 .nav-bar:last-child {
   margin-right: 1rem;
+}
+
+a:hover {
+  color: #799dab;
+  text-shadow: rgba(0, 0, 0, 0.188) 1px 0 4px;
+  transition: 0.5s ease;
+}  
+.contact-button :hover{
+  background-color: #799dab;
+  transition: 0.5s ease;
 }
 /* LANGUAGE MENU SELECTOR */
 .lang {
@@ -105,9 +117,9 @@ a {
 }
 
 .product-details p {
-  width: 30rem;
+  width: 35rem;
   text-align: left;
-  font-size: 20px;
+  font-size: medium;
   line-height: 20px;
   margin-bottom: 1rem;
 }

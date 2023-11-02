@@ -42,8 +42,9 @@ body {
 nav,
 .nav-bar {
   display: flex;
-  gap: 1rem;
   align-items: center;
+  gap: 1rem;
+  font-weight: bold;
 }
 nav {
   justify-content: space-between;
@@ -86,6 +87,15 @@ a {
   margin-right: 1rem;
 }
 
+a:hover {
+  color: #799dab;
+  text-shadow: rgba(0, 0, 0, 0.188) 1px 0 4px;
+  transition: 0.5s ease;
+}  
+.contact-button :hover{
+  background-color: #799dab;
+  transition: 0.5s ease;
+}
 /* LANGUAGE MENU SELECTOR */
 .lang {
   background-color: #c7eaf8;
@@ -142,11 +152,11 @@ a {
 }
 
 .pricing {
-  margin-top: 0.5rem;
   text-align: center;
   display: flex;
-  justify-content: center;
+  margin-top: 1rem;
   gap: 1rem;
+  justify-content: center;
 }
 
 .line > .line1 {
