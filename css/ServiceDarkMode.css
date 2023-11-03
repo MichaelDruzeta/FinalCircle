@@ -38,7 +38,7 @@ a {
 }
 .effectHov :hover {
   color: #ffffff;
-  text-shadow: rgba(0, 0, 0, 0.636) 1px 0 4px;
+  text-shadow: rgba(0, 0, 0, 0.636) 0.063rem 0 0.25rem;
   transition: 0.5s ease;
 }
 .contact-button {
@@ -46,7 +46,7 @@ a {
   color: black;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.25);
   font-weight: bold;
 }
 .contact-button:hover {
@@ -101,30 +101,30 @@ a {
 }
 
 .image {
-  height: 350px;
+  height: 21.875rem;
   margin: 0;
 }
 
 .Service-main > div {
   background-color: #c7eaf8;
-  margin: 100px;
+  margin: 6.25rem;
   font-size: large;
   text-align: left;
-  border-top: 4px solid black;
-  border-bottom: 4px solid black;
-  margin-top: 60px;
+  border-top: 0.25rem solid black;
+  border-bottom: 0.25rem solid black;
+  margin-top: 3.75rem;
   margin-bottom: auto;
   height: 40rem;
-  line-height: 30px;
+  line-height: 1.875rem;
 
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0.25rem 1.25rem 0 rgba(0, 0, 0, 0.25);
 }
 h3 {
   color: #799dab;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 li {
-  line-height: 40px;
+  line-height: 2.5rem;
 }
 ul {
   margin-top: 1rem;
@@ -136,7 +136,7 @@ ul {
   border-radius: 3rem;
   text-align: center;
   max-width: 8rem;
-  margin-left: 15px;
+  margin-left: 0.938rem;
   margin-top: 3.5rem;
 }
 .Learn-more-button1 a{
@@ -152,9 +152,9 @@ ul {
   color: white;
   padding: 0.6rem 1.5rem;
   border-radius: 3rem;
-  text-align: center;
+  text-align: center; 
   max-width: 7.8rem;
-  margin-left: 15px;
+  margin-left: 0.938rem;
   margin-top: 1.1rem;
 }
 .Learn-more-button2 a{
