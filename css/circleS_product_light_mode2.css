@@ -200,8 +200,10 @@ h2 {
   align-items: flex-start;
   padding-right: 10rem;
 }
-
-
+.content-center{
+  justify-content: center;/**moved the text 'follow us' to the middle**/
+  color: #000;
+}
 .pricing > p {
   margin: 1rem;
 }
