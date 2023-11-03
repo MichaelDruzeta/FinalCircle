@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacts Page</title>
-    <link rel="stylesheet" href="../css/ContactPageDarkMode.css" />
+    <title>Página de contactos</title>
+    <link
+      rel="stylesheet"
+      href="../css/ContactPageDarkMode.css"
+      type="text/css"
+    />
   </head>
   <body>
     <header class="top-bar">
-      <a href="Homedark.html">
+      <a href="HomedarkSP.html">
         <img
           class="logo"
           src="../Images/circle solutions_logo_02.png"
@@ -17,13 +21,13 @@
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceDarkMode.html"><b>Services</b></a>
-          <a href="NewspageDarkMode.html"><b>News</b></a>
-          <a href="AboutUsDark.html"><b>About Us</b></a>
+          <a href="ServiceSpanishDM.html"><b>Servicios</b></a>
+          <a href="Noticiasdark.html"><b>Noticias</b></a>
+          <a href="AboutUsDark - Spanish.html"><b>Sobre nosotros</b></a>
         </div>
         <div class="nav-bar right">
-          <a href="ContactPage.html" class="contact-button"
-            ><b></b>Contact Us</a
+          <a href="ContactPageDarkModeSpanish.php" class="contact-button"
+            ><b></b>Contáctenos</a
           >
           <div class="language-menu">
             <a href="#">
@@ -33,15 +37,15 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="ContactPageDarkMode.html">English</a>
+                <a href="ContactPageDarkMode.php">Inglés</a>
               </li>
               <li>
-                <img src=../Images/spanish.png" alt="sp" />
-                <a href="ContactPageDarkModeSpanish.html">Spanish</a>
+                <img src="../Images/spanish.png" alt="sp" />
+                <a href="ContactPageDarkModeSpanish.php">Español</a>
               </li>
             </ul>
           </div>
-          <a href="ContactPage.html">
+          <a href="ContactPageSpanish.php">
             <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
           </a>
         </div>
@@ -50,15 +54,34 @@
 
     <main>
       <h1 class="title">
-        Are you ready to take your business to the next level?
+        ¿Estás listo para llevar tu negocio al siguiente nivel?
       </h1>
       <form action="" method="POST">
         <div class="input">
-          <input type="text" name="name" placeholder="Name" required />
-          <input type="email" name="email" placeholder="Email" required />
-          <input type="tel" name="" placeholder="Phone number" required />
-          <input type="submit" name="Submit" class="submit" required />
+          <input type="text" name="name" placeholder="Nombre"  />
+          <input type="email" name="email" placeholder="Email"  />
+          <input type="tel" name="" placeholder="Número de teléfono"  />
+          <input
+            type="submit"
+            value="Entregar"
+            name="Submit"
+            class="submit"
+            
+          />
         </div>
+        <?php
+        if($_SERVER['REQUEST_METHOD'] == "POST"){
+          $name =filter_input(INPUT_POST, "name");
+          $email =filter_input(INPUT_POST, "email");
+          $phone =filter_input(INPUT_POST, "phone");
+
+          if(empty($name) && empty($email) && empty($phone)){
+            echo '<p class="fail">*Please fill in all fields</p>';
+          }else{
+            echo '<p class="success">Sent successfully</p>';
+          }
+        }
+        ?>
       </form>
 
       <section class="info">
@@ -86,7 +109,8 @@
 
     <footer>
       <p class="copyrightH">
-        Copyright &copy; 2023 Circle Solutions Inc. All rights reserved.
+        Copyright &copy; 2023 Circle Solutions Inc. Todos los derechos
+        reservados.
       </p>
     </footer>
   </body>
