@@ -36,9 +36,9 @@ nav {
 a {
   text-decoration: none;
 }
-a:hover {
-  color: #c7eaf8;
-  text-shadow: rgba(0, 0, 0, 0.188) 1px 0 4px;
+.effectHov :hover {
+  color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.636) 1px 0 4px;
   transition: 0.5s ease;
 }
 .contact-button {
@@ -117,7 +117,7 @@ a:hover {
   height: 40rem;
   line-height: 30px;
 
-  box-shadow: 0 5px 50px #272727;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
 }
 h3 {
   color: #799dab;
