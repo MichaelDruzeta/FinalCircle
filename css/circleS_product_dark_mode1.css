@@ -157,6 +157,7 @@ a:hover {
   margin-top: 1rem;
   gap: 1rem;
   justify-content: center;
+  pointer-events: none;
 }
 
 .line > .line1 {
@@ -229,9 +230,9 @@ h2 {
 .image {
   height: 500px;
   width: 500px;
-  margin-left: 8.5rem;
+  margin-left: 90px;
   margin-right: 3rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .copyright-bar {
