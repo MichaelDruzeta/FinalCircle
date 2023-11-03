@@ -311,4 +311,8 @@ button{
   margin: auto;
   align-items: center;
 }
-
+button:hover {
+  background-color: white;
+  transition: 0.5s ease;
+  color:black;
+}

@@ -301,6 +301,11 @@ button{
   margin: auto;
   margin-bottom: 1rem;
 }
+button:hover {
+  background-color: white;
+  transition: 0.5s ease;
+  color:black;
+}
 /* FOOTER ABOUT THE SOCIAL-MEDIA  */
 .ReadMore-footer-content {
   display: grid;

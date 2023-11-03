@@ -384,3 +384,7 @@ button{
   margin: auto;
   margin-bottom: 1rem;
 }
+button:hover {
+  background-color:#000;
+  transition: 0.5s ease;
+}
