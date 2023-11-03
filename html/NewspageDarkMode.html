@@ -71,19 +71,7 @@
           <input class="submit" type="submit" value="Sign In" />
         </form>
       </div>
-      <script>
-        const popup = document.querySelector(".popup");
-        const close = document.querySelector(".close");
-
-        window.onload = function () {
-          setTimeout(function () {
-            popup.style.display = "block";
-          }, 4000);
-        };
-        close.addEventListener("click", () => {
-          popup.style.display = "none";
-        });
-      </script>
+      
     </section>
     <!--NEWSPAGE-->
     <div class="main">
@@ -354,10 +342,26 @@
             <p class="social-id">@circleSolutions</p>
           </div>
         </section>
+        <button id="openPopup">Suscríbase a nuestro boletín !</button>
       </aside>
       <p class="copyright">
-        Copyright &copy; 2023 Circle Solutions Inc. All rights reserved.
+        Copyright &copy; 2023 Circle Solutions Inc. Todos los derechos reservados.
       </p>
     </footer>
+    <script>
+      const popup = document.querySelector(".popup");
+      const closePopup = document.querySelector(".close");
+      const openPopupButton = document.getElementById("openPopup");
+    
+      // Attach a click event listener to the "Sign up" button
+      openPopupButton.addEventListener("click", function(){
+        popup.style.display = "block";
+      });
+    
+      // Attach a click event listener to the close button
+      closePopup.addEventListener("click", function(){
+        popup.style.display = "none";
+      });
+    </script>
   </body>
 </html>

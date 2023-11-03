@@ -100,6 +100,7 @@ header a:hover {
   grid-template-columns: repeat(3, 1fr);
   width: 50rem;
   margin: auto;
+  align-items: center;
 }
 .follow {
   margin-top: 0;
@@ -292,7 +293,7 @@ header a:hover {
 }
 
 /* POPUP SING-UP */
-.popup {
+.popup{
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
   position: fixed;
@@ -368,4 +369,18 @@ input {
 .submit:hover {
   background-color: black;
   transition: 0.5s ease;
+}
+button{
+  font-size: 1rem;
+  border:none;
+  background-color: #799dab;
+  color: white;
+  width:fit-content;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+  grid-column: 2/3;
+  margin: auto;
+  margin-bottom: 1rem;
 }

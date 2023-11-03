@@ -45,6 +45,36 @@
       </div>
     </nav>
   </header>
+      <!-- POPUP SIGN-UP  -->
+      <section class="popup">
+        <div class="popup-content">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="close"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+  
+          <h1 class="signUp-title">Suscríbase a nuestro boletín !</h1>
+          <p class="singUp-additional">
+            Recibirás únicamente notificaciones sobre nuestra actividad y productos.
+          </p>
+      
+          <form action="POST" class="signUp-form">
+            <input class="email" type="email" placeholder="El email" />
+            <input class="submit" type="submit" value="Registrarse" />
+          </form>
+        </div>
+        
+      </section>
     
 <main class="content-service">
     
@@ -99,9 +129,52 @@
     </div>
     </main>
 
-    <div class="copyright-bar">
-        Copyright © 2023 Circle Solutions Inc. Todos los derechos reservados.
-    </div>
+    <footer class="Newspage-footer">
+      <h3 class="follow">Síguenos en</h3>
+      <aside class="ReadMore-footer-content">
+        <section class="social-block">
+          <img src="../Images/image 16.png" alt="instagram" class="social-img" />
+          <div class="social">
+            <h6 class="social-name">Instagram :</h6>
+            <p class="social-id">@circleSolutions</p>
+          </div>
+        </section>
+        <section class="social-block">
+          <img src="../Images/image 18.png" alt="facebook" class="social-img" />
+          <div class="social">
+            <h6 class="social-name">Facebook :</h6>
+            <p class="social-id">@circleSolutions</p>
+          </div>
+        </section>
+        <section class="social-block">
+          <img src="../Images/image 19.png" alt="x" class="social-img" />
+          <div class="social">
+            <h6 class="social-name">X :</h6>
+            <p class="social-id">@circleSolutions</p>
+          </div>
+        </section>
+
+        <button id="openPopup">Suscríbase a nuestro boletín !</button>
+      </aside>
+      <p class="copyright">
+        Copyright &copy; 2023 Circle Solutions Inc. Todos los derechos reservados.
+      </p>
+    </footer>
+    <script>
+      const popup = document.querySelector(".popup");
+      const closePopup = document.querySelector(".close");
+      const openPopupButton = document.getElementById("openPopup");
+    
+      // Attach a click event listener to the "Sign up" button
+      openPopupButton.addEventListener("click", function(){
+        popup.style.display = "block";
+      });
+    
+      // Attach a click event listener to the close button
+      closePopup.addEventListener("click", function(){
+        popup.style.display = "none";
+      });
+    </script>
     
 
 
