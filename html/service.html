@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Service page</title>
     <link href="../css/service.css" rel="stylesheet" />
   </head>
   <body class="Service-body">
@@ -18,7 +18,7 @@
           <a class="effectHov" href="../html/AboutUs.html"><b>About Us</b></a>
         </div>
         <div class="nav-bar right">
-          <a href="../html/ContactPage.html" class="contact-button">Contact Us</a>
+          <a href="../html/ContactPage.php" class="contact-button">Contact Us</a>
           <div class="language-menu">
             <a href="#">
               <img class="icon" src="../Images/internet.png" alt="language" />
@@ -64,10 +64,11 @@
               You will get only notifications about our activity and products.
             </p>
     
-            <form action="POST" class="signUp-form">
-              <input class="email" type="email" placeholder="Email Address" />
+            <form action="<?=$_SERVER['PHP_SELF']?>" method="POST" class="signUp-form" id="signupForm">
+              <input class="email" type="email" placeholder="Email Address" id="emailInput" />
               <input class="submit" type="submit" value="Sign In" />
-            </form>
+              <div id="error-message"></div>
+                    </form>
           </div>
           
         </section>
@@ -130,21 +131,41 @@
         Copyright &copy; 2023 Circle Solutions Inc. All rights reserved.
       </p>
     
-    <script>
-      const popup = document.querySelector(".popup");
-      const closePopup = document.querySelector(".close");
-      const openPopupButton = document.getElementById("openPopup");
-    
-      // Attach a click event listener to the "Sign up" button
-      openPopupButton.addEventListener("click", function(){
-        popup.style.display = "block";
-      });
-    
-      // Attach a click event listener to the close button
-      closePopup.addEventListener("click", function(){
-        popup.style.display = "none";
-      });
-    </script>
+      <script>
+        const popup = document.querySelector(".popup");
+        const closePopup = document.querySelector(".close");
+        const openPopupButton = document.getElementById("openPopup");
+      
+        openPopupButton.addEventListener("click", function() {
+          popup.style.display = "block";
+        });
+      
+        closePopup.addEventListener("click", function() {
+          popup.style.display = "none";
+        });
+      
+        const signupForm = document.getElementById("signupForm");
+        const emailInput = document.getElementById("emailInput");
+        const errorMessage = document.getElementById("error-message");
+      
+        signupForm.addEventListener("submit", function(event) {
+          event.preventDefault(); 
+      
+          const email = emailInput.value;
+          if (!isValidEmail(email)) {
+            errorMessage.innerText = "Please enter a valid email address.";
+          } else {
+
+            errorMessage.innerText = "Thank you for subscribing!";
+            emailInput.value = "";
+          }
+        });
+      
+        function isValidEmail(email) {
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          return emailRegex.test(email);
+        }
+      </script>
     </footer>
   </body>
 </html>

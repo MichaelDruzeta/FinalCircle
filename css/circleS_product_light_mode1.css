@@ -120,11 +120,10 @@ a:hover {
   text-align: left;
   font-size: medium;
   line-height: 22px;
-  
 }
 
 .product-details h3 {
-  font-size: x-large;
+  font-size: 25px;
   font-weight: 400;
 }
 
@@ -198,8 +197,6 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   padding-right: 10rem;
-  margin-left: 3rem;
-  margin-bottom: 1rem;
 }
 
 .container {
@@ -218,7 +215,7 @@ h2 {
   width: 500px;
   margin-left: 90px;
   margin-right: 3rem;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .copyright-bar {
@@ -388,6 +385,9 @@ input {
 .submit:hover {
   background-color: black;
   transition: 0.5s ease;
+}
+.content-center{
+  justify-content: center; /**moved the text 'follow us' to the middle**/
 }
 button{
   font-size: 1rem;

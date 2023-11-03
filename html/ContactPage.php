@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacts Page</title>
+    <title>Contact Page</title>
     <link rel="stylesheet" href="../css/Contact.css" type="text/css" />
   </head>
   <body>
@@ -70,9 +70,10 @@
           You will get only notifications about our activity and products.
         </p>
 
-        <form action="POST" class="signUp-form">
-          <input class="email" type="email" placeholder="Email Address" />
-          <input class="submit" type="submit" value="Sign In" />
+        <form action="<?=$_SERVER['PHP_SELF']?>" method="POST" class="signUp-form" id="signupForm">
+  <input class="email" type="email" placeholder="Email Address" id="emailInput" />
+  <input class="submit" type="submit" value="Sign In" />
+  <div id="error-message"></div>
         </form>
       </div>
       
@@ -161,19 +162,38 @@
       </p>
     </footer>
     <script>
-      const popup = document.querySelector(".popup");
-      const closePopup = document.querySelector(".close");
-      const openPopupButton = document.getElementById("openPopup");
-    
-      // Attach a click event listener to the "Sign up" button
-      openPopupButton.addEventListener("click", function(){
-        popup.style.display = "block";
-      });
-    
-      // Attach a click event listener to the close button
-      closePopup.addEventListener("click", function(){
-        popup.style.display = "none";
-      });
-    </script>
+  const popup = document.querySelector(".popup");
+  const closePopup = document.querySelector(".close");
+  const openPopupButton = document.getElementById("openPopup");
+
+  openPopupButton.addEventListener("click", function() {
+    popup.style.display = "block";
+  });
+
+  closePopup.addEventListener("click", function() {
+    popup.style.display = "none";
+  });
+
+  const signupForm = document.getElementById("signupForm");
+  const emailInput = document.getElementById("emailInput");
+  const errorMessage = document.getElementById("error-message");
+
+  signupForm.addEventListener("submit", function(event) {
+    event.preventDefault(); 
+
+    const email = emailInput.value;
+    if (!isValidEmail(email)) {
+      errorMessage.innerText = "Please enter a valid email address.";
+    } else {
+      errorMessage.innerText = "Thank you for subscribing!";
+      emailInput.value = ""; 
+    }
+  });
+
+  function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
+</script>
   </body>
 </html>
