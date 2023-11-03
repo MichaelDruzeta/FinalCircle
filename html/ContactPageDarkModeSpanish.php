@@ -74,10 +74,11 @@
       Recibirás únicamente notificaciones sobre nuestra actividad y productos.
     </p>
 
-    <form action="POST" class="signUp-form">
-      <input class="email" type="email" placeholder="El email" />
-      <input class="submit" type="submit" value="Registrarse" />
-    </form>
+    <form action="<?=$_SERVER['PHP_SELF']?>" method="POST" class="signUp-form" id="signupForm">
+  <input class="email" type="email" placeholder="El email" id="emailInput" />
+  <input class="submit" type="submit" value="Registrarse" />
+  <div id="error-message"></div>
+        </form>
   </div>
       
     </section>
@@ -169,19 +170,38 @@
       </p>
     </footer>
     <script>
-      const popup = document.querySelector(".popup");
-      const closePopup = document.querySelector(".close");
-      const openPopupButton = document.getElementById("openPopup");
-    
-      // Attach a click event listener to the "Sign up" button
-      openPopupButton.addEventListener("click", function(){
-        popup.style.display = "block";
-      });
-    
-      // Attach a click event listener to the close button
-      closePopup.addEventListener("click", function(){
-        popup.style.display = "none";
-      });
-    </script>
+  const popup = document.querySelector(".popup");
+  const closePopup = document.querySelector(".close");
+  const openPopupButton = document.getElementById("openPopup");
+
+  openPopupButton.addEventListener("click", function() {
+    popup.style.display = "block";
+  });
+
+  closePopup.addEventListener("click", function() {
+    popup.style.display = "none";
+  });
+
+  const signupForm = document.getElementById("signupForm");
+  const emailInput = document.getElementById("emailInput");
+  const errorMessage = document.getElementById("error-message");
+
+  signupForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const email = emailInput.value;
+    if (!isValidEmail(email)) {
+      errorMessage.innerText = "Por favor, introduce una dirección de correo electrónico válida.";
+    } else {
+      errorMessage.innerText = "¡Gracias por suscribirse!";
+      emailInput.value = ""; 
+    }
+  });
+
+  function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
+</script>
   </body>
 </html>

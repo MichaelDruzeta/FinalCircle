@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Servicios</title>
     <link href="../css/ServiceDarkMode.css" rel="stylesheet">
 </head>
 <body class="Service-body">
@@ -18,7 +18,7 @@
         <a class="effectHov" href="../html/AboutUsDark - Spanish.html"><b>Sobre nosotros</b></a>
       </div>
       <div class="nav-bar right">
-        <a href="../html/ContactSpanish.html" class="contact-button">Contáctanos</a>
+        <a href="../html/ContactPageDrakModeSpanish.php" class="contact-button">Contáctanos</a>
         <div class="language-menu">
           <img class="icon" src="../Images/internet.png" alt="language" />
         </a>
@@ -62,10 +62,11 @@
             Recibirás únicamente notificaciones sobre nuestra actividad y productos.
           </p>
       
-          <form action="POST" class="signUp-form">
-            <input class="email" type="email" placeholder="El email" />
+          <form action="<?=$_SERVER['PHP_SELF']?>" method="POST" class="signUp-form" id="signupForm">
+            <input class="email" type="email" placeholder="El email" id="emailInput" />
             <input class="submit" type="submit" value="Registrarse" />
-          </form>
+            <div id="error-message"></div>
+                  </form>
         </div>
         
       </section>
@@ -132,15 +133,34 @@
     const closePopup = document.querySelector(".close");
     const openPopupButton = document.getElementById("openPopup");
   
-    // Attach a click event listener to the "Sign up" button
-    openPopupButton.addEventListener("click", function(){
+    openPopupButton.addEventListener("click", function() {
       popup.style.display = "block";
     });
   
-    // Attach a click event listener to the close button
-    closePopup.addEventListener("click", function(){
+    closePopup.addEventListener("click", function() {
       popup.style.display = "none";
     });
+  
+    const signupForm = document.getElementById("signupForm");
+    const emailInput = document.getElementById("emailInput");
+    const errorMessage = document.getElementById("error-message");
+  
+    signupForm.addEventListener("submit", function(event) {
+      event.preventDefault(); 
+  
+      const email = emailInput.value;
+      if (!isValidEmail(email)) {
+        errorMessage.innerText = "Por favor, introduce una dirección de correo electrónico válida.";
+      } else {
+        errorMessage.innerText = "¡Gracias por suscribirse!";
+        emailInput.value = ""; 
+      }
+    });
+  
+    function isValidEmail(email) {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
   </script>
 </body>
 </html>
