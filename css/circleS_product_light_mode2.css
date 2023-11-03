@@ -50,9 +50,9 @@ nav {
   flex-grow: 1;
 }
 .icon {
-  width: 12rem;
+  width: 2rem;
   height: auto;
-  margin-left: 1rem;
+  
 }
 a {
   text-decoration: none;
@@ -117,9 +117,9 @@ a:hover {
 }
 
 .product-details p {
-  width: 35rem;
+  width: 30rem;
   text-align: left;
-  font-size: medium;
+  font-size: 20px;
   line-height: 20px;
   margin-bottom: 1rem;
 }
@@ -144,6 +144,7 @@ a:hover {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  pointer-events: none;
 }
 
 .line > .line1 {
@@ -200,22 +201,17 @@ h2 {
   padding-right: 10rem;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  margin: 30px;
-}
 
 .pricing > p {
   margin: 1rem;
 }
 
 .image {
-  height: 525px;
-  width: 525px;
+  height: 500px;
+  width: 500px;
   margin-left: 90px;
   margin-right: 3rem;
+  padding-top: 3rem;
 }
 
 .copyright-bar {
