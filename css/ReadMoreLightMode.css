@@ -106,6 +106,7 @@ main {
   gap: 2rem;
   justify-content: center;
   margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .product-img {
@@ -132,8 +133,6 @@ main {
 footer {
   background-color: #c7eaf8;
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 
 .ReadMore-footer-content {
@@ -180,7 +179,7 @@ footer {
   text-align: center;
 }
 /* POPUP SING-UP */
-.popup{
+.popup {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
   position: fixed;
@@ -257,12 +256,12 @@ input {
   background-color: black;
   transition: 0.5s ease;
 }
-button{
+button {
   font-size: 1rem;
-  border:none;
+  border: none;
   background-color: #799dab;
   color: white;
-  width:fit-content;
+  width: fit-content;
   text-align: center;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
@@ -272,6 +271,6 @@ button{
   margin-bottom: 1rem;
 }
 button:hover {
-  background-color:#000;
+  background-color: #000;
   transition: 0.5s ease;
 }

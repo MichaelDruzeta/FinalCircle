@@ -189,7 +189,7 @@ form .fail {
   grid-row-start: 2;
   grid-column-start: 3;
 
-  align-self: end;
+  align-self: flex-start;
 }
 
 .map {
@@ -216,7 +216,7 @@ form .fail {
   text-align: center;
 }
 /* POPUP SING-UP */
-.popup{
+.popup {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
   position: fixed;
@@ -293,12 +293,12 @@ input {
   background-color: black;
   transition: 0.5s ease;
 }
-button{
+button {
   font-size: 1rem;
-  border:none;
+  border: none;
   background-color: #799dab;
   color: white;
-  width:fit-content;
+  width: fit-content;
   text-align: center;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
@@ -308,7 +308,7 @@ button{
   margin-bottom: 1rem;
 }
 button:hover {
-  background-color:#000;
+  background-color: #000;
   transition: 0.5s ease;
 }
 /* FOOTER ABOUT THE SOCIAL-MEDIA  */
@@ -359,4 +359,3 @@ button:hover {
   margin: 0;
   text-align: center;
 }
-

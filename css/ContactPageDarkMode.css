@@ -183,7 +183,7 @@ input {
   grid-row-start: 2;
   grid-column-start: 3;
 
-  align-self: end;
+  align-self: flex-start;
 }
 
 .map {
@@ -210,7 +210,7 @@ input {
   text-align: center;
 }
 /* POPUP SING-UP */
-.popup{
+.popup {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
   position: fixed;
@@ -287,12 +287,12 @@ input {
   background-color: black;
   transition: 0.5s ease;
 }
-button{
+button {
   font-size: 1rem;
-  border:none;
+  border: none;
   background-color: #799dab;
   color: white;
-  width:fit-content;
+  width: fit-content;
   text-align: center;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
@@ -304,7 +304,7 @@ button{
 button:hover {
   background-color: white;
   transition: 0.5s ease;
-  color:black;
+  color: black;
 }
 /* FOOTER ABOUT THE SOCIAL-MEDIA  */
 .Newspage-footer {
@@ -344,7 +344,7 @@ button:hover {
 .social-id {
   font-size: 0.8rem;
   margin: 0;
-  color:black;
+  color: black;
 }
 .copyright {
   color: white;
