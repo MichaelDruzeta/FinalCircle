@@ -23,7 +23,7 @@
         </div>
         <div class="nav-bar right">
           <a href="ContactPageSpanish.php" class="contact-button"
-            ><b></b>Contáctenos</a
+            ><b></b>Contáctamos</a
           >
           <div class="language-menu">
             <a href="#">
@@ -109,7 +109,7 @@
             echo '<p class="success">Sent successfully</p>';
           }
         }
-        ?>php
+        ?>
       </form>
 
       <section class="info">

@@ -36,7 +36,7 @@
                 <a href="ContactPageDarkMode.php">English</a>
               </li>
               <li>
-                <img src=../Images/spanish.png" alt="sp" />
+                <img src="../Images/spanish.png" alt="sp" />
                 <a href="ContactPageDarkModeSpanish.php">Spanish</a>
               </li>
             </ul>

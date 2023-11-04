@@ -38,7 +38,6 @@ a {
 }
 header a:hover {
   color: #ffffff;
-  text-shadow: rgba(0, 0, 0, 0.636) 1px 0 4px;
   transition: 0.5s ease;
 }
 .contact-button {

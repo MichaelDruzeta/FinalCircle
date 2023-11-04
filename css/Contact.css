@@ -312,6 +312,12 @@ button:hover {
   transition: 0.5s ease;
 }
 /* FOOTER ABOUT THE SOCIAL-MEDIA  */
+.Newspage-footer {
+  margin-top: 1rem;
+  background-color: #c7eaf8;
+  width: 100%;
+  bottom: 0;
+}
 .ReadMore-footer-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -319,6 +325,7 @@ button:hover {
   margin: auto;
   align-items: center;
 }
+
 .follow {
   margin-top: 0;
   grid-column: 1/-1;

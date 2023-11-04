@@ -27,7 +27,7 @@
         </div>
         <div class="nav-bar right">
           <a href="ContactPageDarkModeSpanish.php" class="contact-button"
-            ><b></b>Contáctenos</a
+            ><b></b>Contáctamos</a
           >
           <div class="language-menu">
             <a href="#">
