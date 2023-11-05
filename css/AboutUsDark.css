@@ -234,9 +234,9 @@ a {
 
 .faqQ {
   border: none;
-  padding: 2rem;
-  font-weight: bold;
+  padding: 1.9rem;
   text-align: center;
+  font-size: 1.2rem;
   border-radius: 1rem;
   background-color: #c7eaf8;
 
@@ -254,6 +254,16 @@ a {
   -webkit-transition: ease-out 0.3s;
 }
 
+.mouseIcon {
+  height: 1.4rem;
+  width: 1rem;
+  float: right;
+
+  position: inherit;
+
+  z-index: 7;
+}
+
 .faqA {
   margin-bottom: -3.7rem;
   padding-bottom: 3.7rem;
@@ -261,7 +271,6 @@ a {
   text-align: center;
   border-radius: 1rem;
   background-color: #799dab;
-  height: 1.5rem;
 
   display: flex;
   justify-content: center;
