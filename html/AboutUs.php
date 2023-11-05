@@ -8,18 +8,18 @@
   </head>
   <body>
     <header class="top-bar">
-      <a href="Homepage.html">
+      <a href="Homepage.php">
         <img
           class="logo"
           src="../Images/circle solutions_logo_02.png"
           alt="logo"
         />
-        </a >
-      <nav> 
+      </a>
+      <nav>
         <div class="nav-bar left">
-          <a class="effectHov" href="service.html"><b>Services</b></a>
-          <a class="effectHov" href="Newspage.html"><b>News</b></a>
-          <a class="effectHov" href="AboutUs.html"><b>About Us</b></a>
+          <a class="effectHov" href="service.php"><b>Services</b></a>
+          <a class="effectHov" href="Newspage.php"><b>News</b></a>
+          <a class="effectHov" href="AboutUs.php"><b>About Us</b></a>
         </div>
         <div class="nav-bar right">
           <a href="ContactPage.php" class="contact-button">Contact Us</a>
@@ -31,51 +31,60 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="AboutUs.html">English</a>
+                <a href="AboutUs.php">English</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="AboutUs - Spanish.html">Spanish</a>
+                <a href="AboutUs - Spanish.php">Spanish</a>
               </li>
             </ul>
           </div>
-          <a href="AboutUsDark.html">
+          <a href="AboutUsDark.php">
             <img class="icon" src="../Images\dark-mode.png" alt="dark-mode" />
           </a>
         </div>
       </nav>
     </header>
-        <!-- POPUP SIGN-UP  -->
-        <section class="popup">
-          <div class="popup-content">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="close"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-    
-            <h1 class="signUp-title">Sign up for Newsletter !</h1>
-            <p class="singUp-additional">
-              You will get only notifications about our activity and products.
-            </p>
-    
-            <form action="<?=$_SERVER['PHP_SELF']?>" method="POST" class="signUp-form" id="signupForm">
-              <input class="email" type="email" placeholder="Email Address" id="emailInput" />
-              <input class="submit" type="submit" value="Sign In" />
-              <div id="error-message"></div>
-                    </form>
-          </div>
-          
-        </section>
+    <!-- POPUP SIGN-UP  -->
+    <section class="popup">
+      <div class="popup-content">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="close"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+
+        <h1 class="signUp-title">Sign up for Newsletter !</h1>
+        <p class="singUp-additional">
+          You will get only notifications about our activity and products.
+        </p>
+
+        <form
+          action="<?=$_SERVER['PHP_SELF']?>"
+          method="POST"
+          class="signUp-form"
+          id="signupForm"
+        >
+          <input
+            class="email"
+            type="email"
+            placeholder="Email Address"
+            id="emailInput"
+          />
+          <input class="submit" type="submit" value="Sign In" />
+          <div id="error-message"></div>
+        </form>
+      </div>
+    </section>
 
     <p class="conTitle">What do we do</p>
 
@@ -94,9 +103,7 @@
 
     <p class="desc">Our proud statistics of the company</p>
 
-
     <div class="stats">
-
       <div class="square">
         <div class="circle">
           <i class="fa-brands fa-3x fa-happy"></i>
@@ -124,13 +131,24 @@
       <script src="../Javascript/NumCounter.js"></script>
     </div>
 
-
     <div class="brFaq">
       <p class="titleFaq">Frequently Asked <b>Questions</b></p>
 
       <div class="faqQ">
         What is an intranet?
-        <img class="mouseIcon" src="../Images/pointer.png" alt="Mouse Icon"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="mouseIcon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"
+          />
+        </svg>
+      </div>
       <div class="faqA">
         <p class="faqAtxt">
           Intranet means a closed network that resides on a local network. An
@@ -142,7 +160,19 @@
 
       <div class="faqQ">
         What is the difference between the internet and an intranet?
-        <img class="mouseIcon" src="../Images/pointer.png" alt="Mouse Icon"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="mouseIcon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"
+          />
+        </svg>
+      </div>
       <div class="faqA">
         <p class="faqAtxt">
           The main difference between an intranet and the internet is that the
@@ -154,7 +184,19 @@
 
       <div class="faqQ">
         What is an intranet and an extranet?
-        <img class="mouseIcon" src="../Images/pointer.png" alt="Mouse Icon"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="mouseIcon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"
+          />
+        </svg>
+      </div>
       <div class="faqA">
         <p class="faqAtxt">
           An intranet is a closed network designed to allow an organization to
@@ -166,7 +208,19 @@
 
       <div class="faqQ">
         What are intranet sites?
-        <img class="mouseIcon" src="../Images/pointer.png" alt="Mouse Icon"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="mouseIcon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"
+          />
+        </svg>
+      </div>
       <div class="faqA">
         <p class="faqAtxt">
           Intranet sites are closed internal networks for authorized members of
@@ -177,7 +231,19 @@
 
       <div class="faqQ">
         What are intranet applications?
-        <img class="mouseIcon" src="../Images/pointer.png" alt="Mouse Icon"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="mouseIcon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"
+          />
+        </svg>
+      </div>
       <div class="faqA">
         <p class="faqAtxt">
           Intranet applications are software within an intranet like document
@@ -188,8 +254,20 @@
       </div>
 
       <div class="faqQ">
-        What is an intranet portal?
-        <img class="mouseIcon" src="../Images/pointer.png" alt="Mouse Icon"></div>
+        What is an intranet portal?php
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="mouseIcon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"
+          />
+        </svg>
+      </div>
       <div class="faqA">
         <p class="faqAtxt">
           An intranet portal is the access point to the user’s company intranet.
@@ -201,7 +279,19 @@
 
       <div class="faqQ">
         Can an intranet work without the internet?
-        <img class="mouseIcon" src="../Images/pointer.png" alt="Mouse Icon"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="mouseIcon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"
+          />
+        </svg>
+      </div>
       <div class="faqA">
         <p class="faqAtxt">
           Former on-premise company intranets could operate without internet.
@@ -213,7 +303,19 @@
 
       <div class="faqQ">
         Can an intranet be accessed remotely?
-        <img class="mouseIcon" src="../Images/pointer.png" alt="Mouse Icon"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="mouseIcon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"
+          />
+        </svg>
+      </div>
       <div class="faqA">
         <p class="faqAtxt">
           Yes, an intranet can be accessed on a range of devices, regardless of
@@ -226,7 +328,19 @@
 
       <div class="faqQ">
         What does an intranet do?
-        <img class="mouseIcon" src="../Images/pointer.png" alt="Mouse Icon"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="mouseIcon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"
+          />
+        </svg>
+      </div>
       <div class="faqA">
         <p class="faqAtxt">
           Offering all types of organizational solutions, intranet software can
@@ -242,7 +356,11 @@
       <h3 class="follow">Follow us on</h3>
       <aside class="ReadMore-footer-content">
         <section class="social-block">
-          <img src="../Images/image 16.png" alt="instagram" class="social-img" />
+          <img
+            src="../Images/image 16.png"
+            alt="instagram"
+            class="social-img"
+          />
           <div class="social">
             <h6 class="social-name">Instagram :</h6>
             <p class="social-id">@circleSolutions</p>
@@ -272,22 +390,22 @@
       const popup = document.querySelector(".popup");
       const closePopup = document.querySelector(".close");
       const openPopupButton = document.getElementById("openPopup");
-    
-      openPopupButton.addEventListener("click", function() {
+
+      openPopupButton.addEventListener("click", function () {
         popup.style.display = "block";
       });
-    
-      closePopup.addEventListener("click", function() {
+
+      closePopup.addEventListener("click", function () {
         popup.style.display = "none";
       });
-    
+
       const signupForm = document.getElementById("signupForm");
       const emailInput = document.getElementById("emailInput");
       const errorMessage = document.getElementById("error-message");
-    
-      signupForm.addEventListener("submit", function(event) {
-        event.preventDefault(); 
-    
+
+      signupForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
         const email = emailInput.value;
         if (!isValidEmail(email)) {
           errorMessage.innerText = "Please enter a valid email address.";
@@ -296,7 +414,7 @@
           emailInput.value = "";
         }
       });
-    
+
       function isValidEmail(email) {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);

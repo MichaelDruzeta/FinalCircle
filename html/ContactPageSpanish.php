@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="top-bar">
-      <a href="HomepageSP.html">
+      <a href="HomepageSP.php">
         <img
           class="logo"
           src="../Images/circle solutions_logo_01.png"
@@ -17,9 +17,9 @@
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceSpanish.html"><b>Servicios</b></a>
-          <a href="Noticiaslight.html"><b>Noticias</b></a>
-          <a href="AboutUs - Spanish.html"><b>Sobre nosotros</b></a>
+          <a href="ServiceSpanish.php"><b>Servicios</b></a>
+          <a href="Noticiaslight.php"><b>Noticias</b></a>
+          <a href="AboutUs - Spanish.php"><b>Sobre nosotros</b></a>
         </div>
         <div class="nav-bar right">
           <a href="ContactPageSpanish.php" class="contact-button"
@@ -104,9 +104,9 @@
           $phone =filter_input(INPUT_POST, "phone");
 
           if(empty($name) && empty($email) && empty($phone)){
-            echo '<p class="fail">*Please fill in all fields</p>';
+            echo '<p class="fail">*Por favor rellena todos los campos</p>';
           }else{
-            echo '<p class="success">Sent successfully</p>';
+            echo '<p class="success">Enviado correctamente</p>';
           }
         }
         ?>

@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service page</title>
-    <link href="../css/service.css" rel="stylesheet" />
+    <link href="../css/ServiceDarkMode.css" rel="stylesheet">
   </head>
   <body class="Service-body">
     <header class="top-bar">
-      <a href="../html/Homepage.html">
-      <img class="logo" src="../Images/circle solutions_logo_02.png" alt="logo" />
+      <a href="../html/Homedark.php">
+      <img class="logo" src="../Images/circle solutions_logo_02.png" alt="logo">
       </a>
       <nav>
         <div class="nav-bar left">
-          <a class="effectHov" href="../html/service.html"><b>Services</b></a>
-          <a class="effectHov" href="../html/Newspage.html"><b>News</b></a>
-          <a class="effectHov" href="../html/AboutUs.html"><b>About Us</b></a>
+          <a class="effectHov" href="../html/ServiceDarkMode.php"><b>Services</b></a>
+          <a class="effectHov" href="../html/Noticiasdark.php"><b>News</b></a>
+          <a class="effectHov" href="../html/AboutUsDark.php"><b>About Us</b></a>
         </div>
         <div class="nav-bar right">
-          <a href="../html/ContactPage.php" class="contact-button">Contact Us</a>
+          <a href="../html/ContactPageDarkMode.php" class="contact-button">Contact Us</a>
           <div class="language-menu">
             <a href="#">
-              <img class="icon" src="../Images/internet.png" alt="language" />
+              <img class="icon" src="../Images/internet.png" alt="language">
             </a>
             <!-- LANGUAGE SELECTION BLOCK -->
             <ul class="lang">
               <li>
-                <img src="../Images/english.png" alt="eng" />
-                <a href="../html/service.html">English</a>
+                <img src="../Images/english.png" alt="eng">
+                <a href="../html/ServiceDarkMode.php">English</a>
               </li>
               <li>
-                <img src="../Images/spanish.png" alt="sp" />
-                <a href="../html/ServiceSpanish.html">Spanish</a>
+                <img src="../Images/spanish.png" alt="sp">
+                <a href="../html/ServiceSpanishDM.php">Spanish</a>
               </li>
             </ul>
           </div>
-          <a href="../html/ServiceDarkMode.html">
-            <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
+          <a href="../html/service.php">
+            <img class="icon" src="../Images/dark-mode.png" alt="dark-mode">
           </a>
         </div>
       </nav>
@@ -82,10 +82,10 @@
             <li>Communication and Information</li>
             <li>Document management</li>
           </ul>
-            <a href="../html/Product_page_light_mode1.html">
-              <div class="Learn-more-button1">Learn more</div></a>
+          <a href="../html/Product_page_dark_mode1.php">
+            <div class="Learn-more-button1">Learn more</div></a>
         </div>
-        <div class="DOTS">
+        <div>
           <img class="image" src="../Images/product-image2.jpg" alt="Image" />
           <h3>Circle Dots</h3>
           <ul>
@@ -94,7 +94,7 @@
             <li>Knowledge Management</li>
             <li>Analyze and optimise</li>
           </ul>
-            <a href="../html/Product_page_light_mode2.html">
+          <a href="../html/Product_page_dark_mode2.php">
               <div class="Learn-more-button2">Learn more</div></a>
         </div>
       </div>
@@ -130,42 +130,40 @@
       <p class="copyright">
         Copyright &copy; 2023 Circle Solutions Inc. All rights reserved.
       </p>
-    
-      <script>
-        const popup = document.querySelector(".popup");
-        const closePopup = document.querySelector(".close");
-        const openPopupButton = document.getElementById("openPopup");
-      
-        openPopupButton.addEventListener("click", function() {
-          popup.style.display = "block";
-        });
-      
-        closePopup.addEventListener("click", function() {
-          popup.style.display = "none";
-        });
-      
-        const signupForm = document.getElementById("signupForm");
-        const emailInput = document.getElementById("emailInput");
-        const errorMessage = document.getElementById("error-message");
-      
-        signupForm.addEventListener("submit", function(event) {
-          event.preventDefault(); 
-      
-          const email = emailInput.value;
-          if (!isValidEmail(email)) {
-            errorMessage.innerText = "Please enter a valid email address.";
-          } else {
-
-            errorMessage.innerText = "Thank you for subscribing!";
-            emailInput.value = "";
-          }
-        });
-      
-        function isValidEmail(email) {
-          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-          return emailRegex.test(email);
-        }
-      </script>
     </footer>
+    <script>
+      const popup = document.querySelector(".popup");
+      const closePopup = document.querySelector(".close");
+      const openPopupButton = document.getElementById("openPopup");
+    
+      openPopupButton.addEventListener("click", function() {
+        popup.style.display = "block";
+      });
+    
+      closePopup.addEventListener("click", function() {
+        popup.style.display = "none";
+      });
+    
+      const signupForm = document.getElementById("signupForm");
+      const emailInput = document.getElementById("emailInput");
+      const errorMessage = document.getElementById("error-message");
+    
+      signupForm.addEventListener("submit", function(event) {
+        event.preventDefault(); 
+    
+        const email = emailInput.value;
+        if (!isValidEmail(email)) {
+          errorMessage.innerText = "Please enter a valid email address.";
+        } else {
+          errorMessage.innerText = "Thank you for subscribing!";
+          emailInput.value = ""; 
+        }
+      });
+    
+      function isValidEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+      }
+    </script>
   </body>
 </html>

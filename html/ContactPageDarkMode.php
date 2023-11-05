@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="top-bar">
-      <a href="Homedark.html">
+      <a href="Homedark.php">
         <img
           class="logo"
           src="../Images/circle solutions_logo_02.png"
@@ -17,9 +17,9 @@
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceDarkMode.html"><b>Services</b></a>
-          <a href="NewspageDarkMode.html"><b>News</b></a>
-          <a href="AboutUsDark.html"><b>About Us</b></a>
+          <a href="ServiceDarkMode.php"><b>Services</b></a>
+          <a href="NewspageDarkMode.php"><b>News</b></a>
+          <a href="AboutUsDark.php"><b>About Us</b></a>
         </div>
         <div class="nav-bar right">
           <a href="ContactPageDarkMode.php" class="contact-button"

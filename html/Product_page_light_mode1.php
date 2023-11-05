@@ -9,14 +9,14 @@
   <body>
 
     <header class="top-bar">
-      <a href="Homepage.html">
+      <a href="Homepage.php">
         <img class="logo" src="../Images/circle solutions_logo_02.png" alt="logo" />
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="service.html">Services</a>
-          <a href="Newspage.html">News</a>
-          <a href="AboutUs.html">About Us</a>
+          <a href="service.php">Services</a>
+          <a href="Newspage.php">News</a>
+          <a href="AboutUs.php">About Us</a>
         </div>
         <div class="nav-bar right">
           <a href="ContactPage.php" class="contact-button">Contact Us</a>
@@ -32,11 +32,11 @@
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="Product_page_light_mode2 - Spanish.html">Spanish</a>
+                <a href="Product_page_light_mode1 - Spanish.php">Spanish</a>
               </li>
             </ul>
           </div>
-          <a href="Product_page_dark_mode2.html">
+          <a href="Product_page_dark_mode1.php">
             <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
           </a>
           </a>
@@ -47,27 +47,31 @@
     <!-- CONTENT ABOUT THE PRODUCT -->
     <main>
       
-      <img  src="../Images/product-image1.jpg" alt="CircleWorkspace">
-      <section class="info-description">
-      <h1>Circle Workspace</h1>
+      <img  src="../Images/product-image2.jpg" alt="CircleWorkspace" class="img">
+      <section class="info-description info-description2">
+      <h1>Circle D.O.T.S</h1>
 
       <ul>
         <li>
-          <h4>App management</h4>
-          <p>Create a workplace in minutes. We also want to make work easy for workplace administrators. We make it possible to create a role- and conditions-based workplace that combines all your current and future technologies within one workplace</p>
+          <h4>Internal communications</h4>
+          <p>Keep everyone informed, no matter the change, things change – especially in the world today. Keeping everyone on the same page is a challenge for global businesses. Circle D.O.T.S. makes it easy to target and distribute news to the right people, analyse the impact and optimize the message. The result? Everyone gets where you’re going.</p>
         </li>
         <li>
-          <h4>Communication and information</h4>
-          <p>Display information from applications directly in Circle Workspace. At a glance, see all your unread emails, appointments, news, recently edited documents and more.</p>
+          <h4>Connect and engage</h4>
+          <p>Connect your colleagues and engage communities. If people don’t know each other, they can’t trust each other. If teams don’t know what they’re doing, they can’t help each other. Circle D.O.T.S. connects teams and people in an organic way – by letting them form Channels and Pages around projects, interests or social initiatives. No more unfamiliar faces, even if you’re fully remote.</p>
         </li>
         <li>
-          <h4>Document management</h4>
-          <p>Bring all documents together in one online workplace. So you can work online and offline from any device. The documents app bundles and brings structure to Office 365, the fileserver, OneDrive and SharePoint.</p>
+          <h4>Knowledge management</h4>
+          <p>When people say “I love my job”, they’re not talking about the 7.6 hours per week spent trying to find information they need to do their work. Circle D.O.T.S. brings all your disparate resources, applications and knowledge together in one easily structured and searchable home.</p>
+        </li>
+        <li>
+          <h4>Analyse and optimize</h4>
+          <p>For a better working environment, what can be measured, can be improved. Circle D.O.T.S. helps you to shift from a “send and forget” to an “analyse and optimize” mindset, making it easier to experiment and evaluate in a data-driven way. The secret weapon? The world’s friendliest Analytics dashboard.</p>
         </li>
       </ul>
     </section>
 
-    <section class="price">
+    <section class="price price2">
       <div class="price-box">
         <hr class="line">
         <h2>Pricing</h2>
@@ -77,11 +81,11 @@
   
       <ul class="options">
       <li>
-        <h3>140€/mo.</h3>
+        <h3>180€/mo.</h3>
         <p>1-50 users</p>
       </li>
       <li>
-        <h3>760€/mo.</h3>
+        <h3>799€/mo.</h3>
         <p>51-500 users</p>
       </li>
     </ul>

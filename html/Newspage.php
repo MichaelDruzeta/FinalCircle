@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="top-bar">
-      <a href="Homepage.html">
+      <a href="Homepage.php">
         <img
           class="logo"
           src="../Images/circle solutions_logo_02.png"
@@ -17,9 +17,9 @@
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="service.html"><b>Services</b></a>
+          <a href="service.php"><b>Services</b></a>
           <a href="#"><b>News</b></a>
-          <a href="AboutUs.html"><b>About Us</b></a>
+          <a href="AboutUs.php"><b>About Us</b></a>
         </div>
         <div class="nav-bar right">
           <a href="ContactPage.php" class="contact-button"
@@ -32,15 +32,15 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="Newspage.html">English</a>
+                <a href="Newspage.php">English</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="Noticiaslight.html">Spanish</a>
+                <a href="Noticiaslight.php">Spanish</a>
               </li>
             </ul>
           </div>
-          <a href="NewspageDarkMode.html">
+          <a href="NewspageDarkMode.php">
             <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
           </a>
         </div>
@@ -106,7 +106,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMore.html"><h3>Read more</h3></a>
+            <a href="ReadMore.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -134,7 +134,7 @@
           </div>
 
           <div class="button-maxi">
-            <a href="ReadMore.html"><h3>Read more</h3></a>
+            <a href="ReadMore.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -165,7 +165,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMore.html"><h3>Read more</h3></a>
+            <a href="ReadMore.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -195,7 +195,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMore.html"><h3>Read more</h3></a>
+            <a href="ReadMore.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -226,7 +226,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMore.html"><h3>Read more</h3></a>
+            <a href="ReadMore.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -257,7 +257,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMore.html"><h3>Read more</h3></a>
+            <a href="ReadMore.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -288,7 +288,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMore.html"><h3>Read more</h3></a>
+            <a href="ReadMore.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -316,7 +316,7 @@
           </div>
 
           <div class="button-maxi">
-            <a href="ReadMore.html"><h3>Read more</h3></a>
+            <a href="ReadMore.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>

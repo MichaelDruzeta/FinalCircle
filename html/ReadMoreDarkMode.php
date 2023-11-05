@@ -3,33 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="../css/ReadMoreLightMode.css"
-      type="text/css"
-    />
+    <link rel="stylesheet" href="../css/ReadMoreDarkMode.css" type="text/css" />
     <title>Read More Page</title>
   </head>
   <body>
     <header>
-      <a href="Homepage.html">
+      <a href="Homedark.php">
         <img
           class="logo"
-          src="../Images/../Images/circle solutions_logo_02.png"
+          src="../Images/circle solutions_logo_02.png"
           alt="logo"
         />
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="service.html"><b>Services</b></a>
-          <a href="Newspage.html"><b>News</b></a>
-          <a href="AboutUs.html"><b>About Us</b></a>
+          <a href="ServiceDarkMode.php"><b>Services</b></a>
+          <a href="NewspageDarkMode.php"><b>News</b></a>
+          <a href="AboutUsDark.php"><b>About Us</b></a>
         </div>
         <div class="nav-bar right">
-          <a href="ContactPage.php" class="contact-button"
+          <a href="ContactPageDarkMode.php" class="contact-button"
             ><b>Contact Us</b></a
           >
-          <!-- LANGUAGE SELECTION  -->
           <div class="language-menu">
             <a href="#">
               <img class="icon" src="../Images/internet.png" alt="language" />
@@ -38,15 +33,15 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="ReadMore.html">English</a>
+                <a href="ReadMoreDarkMode.php">English</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="ReadMoreSpanish.html">Spanish</a>
+                <a href="ReadMoreSpanishDarlMode.php">Spanish</a>
               </li>
             </ul>
           </div>
-          <a href="ReadMoreDarkMode.html">
+          <a href="ReadMore.php">
             <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
           </a>
         </div>
@@ -168,14 +163,14 @@
       const errorMessage = document.getElementById("error-message");
     
       signupForm.addEventListener("submit", function(event) {
-        event.preventDefault(); 
+        event.preventDefault();
     
         const email = emailInput.value;
         if (!isValidEmail(email)) {
           errorMessage.innerText = "Please enter a valid email address.";
         } else {
           errorMessage.innerText = "Thank you for subscribing!";
-          emailInput.value = ""; 
+          emailInput.value = "";
         }
       });
     

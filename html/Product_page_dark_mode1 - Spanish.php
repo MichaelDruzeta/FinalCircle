@@ -3,23 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/circleS_product_light_mode1.css" href="text/css">
+    <link rel="stylesheet" href="../css/circleS_product_dark_mode1.css" href="text/css">
     <title>Circle Solution</title>
   </head>
   <body>
 
     <header class="top-bar">
-      <a href="HomepageSP.html">
-        <img class="logo" src="../Images/circle solutions_logo_02.png" alt="logo" />
+      <a href="HomedarkSP.php">
+       <img class="logo" src="../Images/circle solutions_logo_02.png" alt="logo" />
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceSpanish.html">Servicios</a>
-          <a href="Noticiaslight.html">Noticias</a>
-          <a href="AboutUs - Spanish.html">Sombre Nosotro</a>
+          <a href="ServiceSpanishDM.php">Servicios</a>
+          <a href="Noticiasdark.php">Noticias</a>
+          <a href="AboutUsDark - Spanish.php">Sombre Nosotros</a>
         </div>
         <div class="nav-bar right">
-          <a href="ContactPageSpanish.php" class="contact-button">Contáctenos</a>
+          <a href="ContactPageDarkModeSpanish.php" class="contact-button">Contáctenos</a>
           <div class="language-menu">
             <a href="#">
               <img class="icon" src="../Images/internet.png" alt="language" />
@@ -28,7 +28,7 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="Product_page_light_mode2.html">Inglés</a>
+                <a href="Product_page_dark_mode1.php">Inglés</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
@@ -36,7 +36,7 @@
               </li>
             </ul>
           </div>
-          <a href="Product_page_dark_mode2 - Spanish.html">
+          <a href="Product_page_light_mode1 - Spanish.php">
             <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
           </a>
           </a>
@@ -47,27 +47,31 @@
     <!-- CONTENT ABOUT THE PRODUCT -->
     <main>
       
-      <img  src="../Images/product-image1.jpg" alt="CircleWorkspace">
-      <section class="info-description">
-      <h1>Circle Workspace</h1>
+      <img  src="../Images/product-image2.jpg"" alt="CircleWorkspace" class="img">
+      <section class="info-description info-description2">
+      <h1>Circle D.O.T.S.</h1>
 
       <ul>
         <li>
-          <h4>Gestión de aplicaciones</h4>
-          <p>Cree un lugar de trabajo en cuestión de minutos. También queremos facilitar el trabajo a los administradores de puestos de trabajo. Hacemos posible la creación de un puesto de trabajo basado en funciones y condiciones que combina todas sus tecnologías actuales y futuras en un único puesto de trabajo.</p>
+          <h4>Comunicación interna</h4>
+          <p>Mantener a todo el mundo informado, no importa el cambio, las cosas cambian, sobre todo en el mundo actual. Mantener a todo el mundo en la misma página es un reto para las empresas globales. Circle D.O.T.S. facilita la selección y distribución de noticias a las personas adecuadas, el análisis del impacto y la optimización del mensaje. ¿El resultado? Todo el mundo llega a su destino.</p>
         </li>
         <li>
-          <h4>Comunicación e información</h4>
-          <p>Visualiza la información de las aplicaciones directamente en Circle Workspace. De un vistazo, vea todos sus correos electrónicos no leídos, citas, noticias, documentos editados recientemente y mucho más.</p>
+          <h4>Conectar y participar</h4>
+          <p>Conecte a sus colegas e involucre a las comunidades. Si la gente no se conoce, no puede confiar en los demás. Si los equipos no saben lo que hacen, no pueden ayudarse mutuamente. Circle D.O.T.S. conecta equipos y personas de forma orgánica, permitiéndoles crear canales y páginas en torno a proyectos, intereses o iniciativas sociales. Se acabaron las caras desconocidas, aunque estés totalmente a distancia.</p>
         </li>
         <li>
-          <h4>Gestión de documentos</h4>
-          <p>Reúna todos los documentos en un único lugar de trabajo en línea. Para que puedas trabajar en línea y sin conexión desde cualquier dispositivo. La aplicación de documentos agrupa y estructura Office 365, el servidor de archivos, OneDrive y SharePoint.</p>
+          <h4>Gestión del conocimiento</h4>
+          <p>Cuando la gente dice "me encanta mi trabajo", no se refiere a las 7,6 horas semanales que pasa intentando encontrar la información que necesita para hacer su trabajo. Circle D.O.T.S. reúne todos sus recursos, aplicaciones y conocimientos dispares en un único lugar de fácil estructuración y búsqueda.</p>
+        </li>
+        <li>
+          <h4>Analizar y optimizar</h4>
+          <p>Para mejorar el entorno de trabajo, lo que se puede medir, se puede mejorar. Circle D.O.T.S. le ayuda a pasar de una mentalidad de "enviar y olvidar" a otra de "analizar y optimizar", lo que facilita la experimentación y la evaluación basadas en datos. ¿El arma secreta? El panel de control de Analytics más sencillo del mundo.</p>
         </li>
       </ul>
     </section>
 
-    <section class="price">
+    <section class="price price2">
       <div class="price-box">
         <hr class="line">
         <h2>Precios</h2>
@@ -77,11 +81,11 @@
   
       <ul class="options">
       <li>
-        <h3>140€ / mes</h3>
+        <h3>180€ / mes</h3>
         <p>1-50 usuarios</p>
       </li>
       <li>
-        <h3>760€ / mes</h3>
+        <h3>799€ / mes</h3>
         <p>51-500 usuarios</p>
       </li>
     </ul>

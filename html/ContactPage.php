@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="top-bar">
-      <a href="Homepage.html">
+      <a href="Homepage.php">
         <img
           class="logo"
           src="../Images/circle solutions_logo_01.png"
@@ -17,9 +17,9 @@
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="service.html"><b>Services</b></a>
-          <a href="Newspage.html"><b>News</b></a>
-          <a href="AboutUs.html"><b>About Us</b></a>
+          <a href="service.php"><b>Services</b></a>
+          <a href="Newspage.php"><b>News</b></a>
+          <a href="AboutUs.php"><b>About Us</b></a>
         </div>
         <div class="nav-bar right">
           <a href="ContactPage.php" class="contact-button"

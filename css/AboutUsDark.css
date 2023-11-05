@@ -28,7 +28,7 @@ body {
 .top-bar {
   margin-top: 1rem;
 }
-.logo{
+.logo {
   width: 12rem;
   height: auto;
   margin-left: 1rem;
@@ -61,8 +61,8 @@ a {
 }
 
 .contact-button {
-  background-color: #c7eaf8;
-  color: black;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
@@ -80,7 +80,7 @@ a {
   gap: 4rem;
 }
 
-.leftSP{
+.leftSP {
   margin-left: 0.6rem;
   gap: 4rem;
 }
@@ -255,8 +255,12 @@ a {
 }
 
 .mouseIcon {
-  height: 1.4rem;
-  width: 1rem;
+  height: 1rem;
+  width: auto;
+  background-color: #000000;
+  stroke: white;
+  padding: 0.2rem;
+  border-radius: 50%;
   float: right;
 
   position: inherit;
@@ -282,9 +286,10 @@ a {
 }
 
 .faqAtxt {
-  padding: 0em;
+  padding: 0.2rem 2rem;
   margin-bottom: -3rem;
   color: white;
+  font-size: 0.9rem;
 }
 
 /*------------------------Footer------------------------*/
@@ -341,7 +346,7 @@ footer {
   text-align: center;
 }
 /* POPUP SING-UP */
-.popup{
+.popup {
   z-index: 7;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
@@ -419,12 +424,12 @@ input {
   background-color: black;
   transition: 0.5s ease;
 }
-button{
+button {
   font-size: 1rem;
-  border:none;
+  border: none;
   background-color: #799dab;
   color: white;
-  width:fit-content;
+  width: fit-content;
   text-align: center;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
@@ -436,6 +441,5 @@ button{
 button:hover {
   background-color: white;
   transition: 0.5s ease;
-  color:black;
+  color: black;
 }
-

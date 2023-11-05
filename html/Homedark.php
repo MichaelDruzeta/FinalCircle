@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="top-bar">
-      <a href="../html/Homedark.html">
+      <a href="../html/Homedark.php">
         <img
           class="logo"
           src="../Images/circle solutions_logo_02.png"
@@ -18,9 +18,9 @@
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="../html/ServiceDarkMode.html"><b>Services</b></a>
-          <a href="../html/NewspageDarkMode.html"><b>News</b></a>
-          <a href="../html/AboutUsDark.html"><b>About Us</b></a>
+          <a href="../html/ServiceDarkMode.php"><b>Services</b></a>
+          <a href="../html/NewspageDarkMode.php"><b>News</b></a>
+          <a href="../html/AboutUsDark.php"><b>About Us</b></a>
         </div>
         <div class="nav-bar right">
           <a href="../html/ContactPageDarkMode.php" class="contact-button">
@@ -36,15 +36,15 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="../html/Homedark.html">English</a>
+                <a href="../html/Homedark.php">English</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="../html/HomedarkSP.html">Spanish</a>
+                <a href="../html/HomedarkSP.php">Spanish</a>
               </li>
             </ul>
           </div>
-          <a href="../html/Homepage.html">
+          <a href="../html/Homepage.php">
             <img class="icon" src="../Images\dark-mode.png" alt="dark-mode" />
           </a>
         </div>
@@ -56,7 +56,7 @@
 
       <p class="text2">we connect the dots</p>
 
-      <a class="services" href="../html/ServiceDarkMode.html" alt="service">
+      <a class="services" href="../html/ServiceDarkMode.php" alt="service">
         <b>SERVICES</b>
       </a>
 

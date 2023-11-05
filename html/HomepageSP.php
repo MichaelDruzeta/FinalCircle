@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="top-bar">
-      <a href="../html/Homepage.html">
+      <a href="../html/HomepageSP.php">
         <img
           class="logo"
           src="../Images/circle solutions_logo_01.png"
@@ -18,13 +18,13 @@
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="../html/service.html"><b>Services</b></a>
-          <a href="../html/Newspage.html"><b>News</b></a>
-          <a href="../html/AboutUs.html"><b>About Us</b></a>
+          <a href="../html/ServiceSpanish.php"><b>Servicios</b></a>
+          <a href="../html/Noticiaslight.php"><b>Noticias</b></a>
+          <a href="../html/AboutUs - Spanish.php"><b>Sobre nosotros</b></a>
         </div>
         <div class="nav-bar right">
-          <a href="../html/ContactPage.php" class="contact-button">
-            <b></b>Contact Us
+          <a href="../html/ContactPageSpanish.php" class="contact-button">
+            <b></b>Contáctamos
           </a>
           
             
@@ -36,15 +36,15 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="../html/Homepage.html">English</a>
+                <a href="../html/Homepage.php">Inglés</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="../html/HomepageSP.html">Spanish</a>
+                <a href="../html/HomepageSP.php">Español</a>php
               </li>
             </ul>
           </div>
-          <a href="../html/Homedark.html">
+          <a href="../html/HomedarkSP.php">
             <img class="icon" src="../Images\dark-mode.png" alt="dark-mode" />
           </a>
         </div>
@@ -52,12 +52,12 @@
     </header>
     <main>
 
-      <p class="text1"><b>we develop software solutions that fits like a glove</b></p>
+      <p class="text1"><b>desarrollamos soluciones de software que se ajustan como un guante</b></p>
 
-      <p class="text2">we connect the dots</p>
+      <p class="text2">nosotros conectamos los puntos</p>
 
-      <a class="services" href="../html/service.html" alt="service">
-        <b>SERVICES</b>
+      <a class="services" href="../html/ServiceSpanish.php" alt="service">
+        <b>SERVICIOS</b>
       </a>
 
     </main>

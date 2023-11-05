@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../css/Newspagedark.css" rel="stylesheet" type="text/css" />
+    <link href="../css/Newspagelight.css" rel="stylesheet" type="text/css" />
     <title>Noticias</title>
   </head>
   <body>
     <header class="top-bar">
-      <a href="HomedarkSP.html">
+      <a href="HomepageSP.php">
         <img
           class="logo"
           src="../Images/circle solutions_logo_02.png"
@@ -17,12 +17,12 @@
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceSpanishDM.html"><b>Servicios</b></a>
+          <a href="ServiceSpanish.php"><b>Servicios</b></a>
           <a href="#"><b>Noticias</b></a>
-          <a href="AboutUsDark - Spanish.html"><b>Sobre nosotros</b></a>
+          <a href="AboutUs - Spanish.php"><b>Sobre nosotros</b></a>
         </div>
         <div class="nav-bar right">
-          <a href="ContactPageDarkModeSpanish.php" class="contact-button"><b>Contáctamos</b></a>
+          <a href="ContactPageSpanish.php" class="contact-button"><b>Contáctamos</b></a>
           <div class="language-menu">
             <a href="#">
               <img class="icon" src="../Images/internet.png" alt="language" />
@@ -31,7 +31,7 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="NewspageDarkMode.html">Inglés</a>
+                <a href="Newspage.php">Inglés</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
@@ -39,44 +39,44 @@
               </li>
             </ul>
           </div>
-          <a href="Noticiaslight.html">
-            <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
+          <a href="NewspageDarkMode.php">
+            <img class="icon" src="../Images\dark-mode.png" alt="dark-mode" />
           </a>
         </div>
       </nav>
     </header>
 
-    <!-- POPUP SIGN-UP  -->
-    <section class="popup">
-      <div class="popup-content">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="close"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        </svg>
+<!-- POPUP SIGN-UP  -->
+<section class="popup">
+  <div class="popup-content">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="close"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12"
+      />
+    </svg>
 
-        <h1 class="signUp-title">Suscríbase a nuestro boletín !</h1>
-        <p class="singUp-additional">
-          Recibirás únicamente notificaciones sobre nuestra actividad y productos.
-        </p>
-    
-        <form action="<?=$_SERVER['PHP_SELF']?>" method="POST" class="signUp-form" id="signupForm">
-          <input class="email" type="email" placeholder="El email" id="emailInput" />
-          <input class="submit" type="submit" value="Registrarse" />
-          <div id="error-message"></div>
-                </form>
-      </div>
-      
-    </section>
+    <h1 class="signUp-title">Suscríbase a nuestro boletín !</h1>
+    <p class="singUp-additional">
+      Recibirás únicamente notificaciones sobre nuestra actividad y productos.
+    </p>
+
+    <form action="<?=$_SERVER['PHP_SELF']?>" method="POST" class="signUp-form" id="signupForm">
+      <input class="email" type="email" placeholder="El email" id="emailInput" />
+      <input class="submit" type="submit" value="Registrarse" />
+      <div id="error-message"></div>
+            </form>
+  </div>
+  
+</section>
     <!--NEWSPAGE-->
     <div class="main">
       <article class="mini">
@@ -106,7 +106,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreSpanishDarlMode.html"><h3 lang="es">Leer más</h3></a>
+            <a href="ReadMoreSpanish.php"><h3 lang="es">Leer más</h3></a>
           </div>
         </div>
       </article>
@@ -135,7 +135,7 @@
           </div>
 
           <div class="button-maxi">
-            <a href="ReadMoreSpanishDarlMode.html"><h3 lang="es">Leer más</h3></a>
+            <a href="ReadMoreSpanish.php"><h3 lang="es">Leer más</h3></a>
           </div>
         </div>
       </article>
@@ -166,7 +166,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreSpanishDarlMode.html"><h3 lang="es">Leer más</h3></a>
+            <a href="ReadMoreSpanish.php"><h3 lang="es">Leer más</h3></a>
           </div>
         </div>
       </article>
@@ -197,14 +197,14 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreSpanishDarlMode.html"><h3 lang="es">Leer más</h3></a>
+            <a href="ReadMoreSpanish.php"><h3 lang="es">Leer más</h3></a>
           </div>
         </div>
       </article>
       <article class="mini4">
         <div class="blogimg">
           <img
-            src="..Images/Blog-intro.jpg"
+            src="../Images/Blog-intro.jpg"
             style="width: 14rem"
             ;
             style="height: 14rem"
@@ -228,7 +228,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreSpanishDarlMode.html"><h3 lang="es">Leer más</h3></a>
+            <a href="ReadMoreSpanish.php"><h3 lang="es">Leer más</h3></a>
           </div>
         </div>
       </article>
@@ -259,14 +259,14 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreSpanishDarlMode.html"><h3 lang="es">Leer más</h3></a>
+            <a href="ReadMoreSpanish.php"><h3 lang="es">Leer más</h3></a>
           </div>
         </div>
       </article>
       <article class="mini6">
         <div class="blogimg">
           <img
-            src="../Images/Blog-intro.jpg"
+            src="../Images\Blog-intro.jpg"
             style="width: 14rem"
             ;
             style="height: 14rem"
@@ -290,7 +290,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreSpanishDarlMode.html"><h3 lang="es">Leer más</h3></a>
+            <a href="ReadMoreSpanish.php"><h3 lang="es">Leer más</h3></a>
           </div>
         </div>
       </article>
@@ -319,7 +319,7 @@
           </div>
 
           <div class="button-maxi">
-            <a href="ReadMoreSpanishDarlMode.html"><h3 lang="es">Leer más</h3></a>
+            <a href="ReadMoreSpanish.php"><h3 lang="es">Leer más</h3></a>
           </div>
         </div>
       </article>
@@ -389,4 +389,4 @@
       }
     </script>
   </body>
-</html>
+    </html>

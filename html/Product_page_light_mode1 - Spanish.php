@@ -9,14 +9,14 @@
   <body>
 
     <header class="top-bar">
-      <a href="HomepageSP.html">
+      <a href="HomepageSP.php">
         <img class="logo" src="../Images/circle solutions_logo_02.png" alt="logo" />
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceSpanish.html">Servicios</a>
-          <a href="Noticiaslight.html">Noticias</a>
-          <a href="AboutUs - Spanish.html">Sombre Nosotros</a>
+          <a href="ServiceSpanish.php">Servicios</a>
+          <a href="Noticiaslight.php">Noticias</a>
+          <a href="AboutUs - Spanish.php">Sombre Nosotros</a>
         </div>
         <div class="nav-bar right">
           <a href="ContactPageSpanish.php" class="contact-button">Contáctenos</a>
@@ -28,7 +28,7 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="Product_page_light_mode1.html">Inglés</a>
+                <a href="Product_page_light_mode1.php">Inglés</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
@@ -36,7 +36,7 @@
               </li>
             </ul>
           </div>
-          <a href="Product_page_dark_mode1 - Spanish.html">
+          <a href="Product_page_dark_mode1 - Spanish.php">
             <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
           </a>
           </a>

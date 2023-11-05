@@ -8,14 +8,14 @@
   </head>
   <body>
     <header class="top-bar">
-      <a href="Homedark.html">
+      <a href="Homedark.php">
       <img class="logo" src="../Images/circle solutions_logo_02.png" alt="logo" />
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceDarkMode.html"><b>Services</b></a>
+          <a href="ServiceDarkMode.php"><b>Services</b></a>
           <a href="#"><b>News</b></a>
-          <a href="AboutUsDark.html"><b>About Us</b></a>
+          <a href="AboutUsDark.php"><b>About Us</b></a>
         </div>
         <div class="nav-bar right">
           <a href="ContactPageDarkMode.php" class="contact-button"
@@ -29,15 +29,15 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="NewspageDarkMode.html">English</a>
+                <a href="NewspageDarkMode.php">English</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="Noticiasdark.html">Spanish</a>
+                <a href="Noticiasdark.php">Spanish</a>
               </li>
             </ul>
           </div>
-          <a href="Newspage.html">
+          <a href="Newspage.php">
             <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
           </a>
         </div>
@@ -103,7 +103,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreDarkMode.html"><h3>Read more</h3></a>
+            <a href="ReadMoreDarkMode.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -131,7 +131,7 @@
           </div>
 
           <div class="button-maxi">
-            <a href="ReadMoreDarkMode.html"><h3>Read more</h3></a>
+            <a href="ReadMoreDarkMode.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -162,7 +162,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreDarkMode.html"><h3>Read more</h3></a>
+            <a href="ReadMoreDarkMode.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -193,7 +193,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreDarkMode.html"><h3>Read more</h3></a>
+            <a href="ReadMoreDarkMode.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -224,7 +224,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreDarkMode.html"><h3>Read more</h3></a>
+            <a href="ReadMoreDarkMode.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -255,7 +255,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreDarkMode.html"><h3>Read more</h3></a>
+            <a href="ReadMoreDarkMode.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -286,7 +286,7 @@
           </div>
 
           <div class="button">
-            <a href="ReadMoreDarkMode.html"><h3>Read more</h3></a>
+            <a href="ReadMoreDarkMode.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>
@@ -314,7 +314,7 @@
           </div>
 
           <div class="button-maxi">
-            <a href="ReadMoreDarkMode.html"><h3>Read more</h3></a>
+            <a href="ReadMoreDarkMode.php"><h3>Read more</h3></a>
           </div>
         </div>
       </article>

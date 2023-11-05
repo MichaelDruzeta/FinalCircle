@@ -3,23 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/circleS_product_dark_mode1.css" href="text/css">
+    <link rel="stylesheet" href="../css/circleS_product_light_mode1.css" href="text/css">
     <title>Circle Solution</title>
   </head>
   <body>
 
     <header class="top-bar">
-      <a href="Homedark.html">
+      <a href="HomepageSP.php">
         <img class="logo" src="../Images/circle solutions_logo_02.png" alt="logo" />
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceDarkMode.html">Services</a>
-          <a href="NewspageDarkMode.html">News</a>
-          <a href="AboutUsDark.html">About Us</a>
+          <a href="ServiceSpanish.php">Servicios</a>
+          <a href="Noticiaslight.php">Noticias</a>
+          <a href="AboutUs - Spanish.php">Sombre Nosotro</a>
         </div>
         <div class="nav-bar right">
-          <a href="ContactPageDarkMode.php" class="contact-button">Contact Us</a>
+          <a href="ContactPageSpanish.php" class="contact-button">Contáctenos</a>
           <div class="language-menu">
             <a href="#">
               <img class="icon" src="../Images/internet.png" alt="language" />
@@ -28,15 +28,15 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="#">English</a>
+                <a href="Product_page_light_mode2.php">Inglés</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="Product_page_dark_mode2 - Spanish.html">Spanish</a>
+                <a href="#">Español</a>
               </li>
             </ul>
           </div>
-          <a href="Product_page_light_mode2.html">
+          <a href="Product_page_dark_mode2 - Spanish.php">
             <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
           </a>
           </a>
@@ -53,16 +53,16 @@
 
       <ul>
         <li>
-          <h4>App management</h4>
-          <p>Create a workplace in minutes. We also want to make work easy for workplace administrators. We make it possible to create a role- and conditions-based workplace that combines all your current and future technologies within one workplace</p>
+          <h4>Gestión de aplicaciones</h4>
+          <p>Cree un lugar de trabajo en cuestión de minutos. También queremos facilitar el trabajo a los administradores de puestos de trabajo. Hacemos posible la creación de un puesto de trabajo basado en funciones y condiciones que combina todas sus tecnologías actuales y futuras en un único puesto de trabajo.</p>
         </li>
         <li>
-          <h4>Communication and information</h4>
-          <p>Display information from applications directly in Circle Workspace. At a glance, see all your unread emails, appointments, news, recently edited documents and more.</p>
+          <h4>Comunicación e información</h4>
+          <p>Visualiza la información de las aplicaciones directamente en Circle Workspace. De un vistazo, vea todos sus correos electrónicos no leídos, citas, noticias, documentos editados recientemente y mucho más.</p>
         </li>
         <li>
-          <h4>Document management</h4>
-          <p>Bring all documents together in one online workplace. So you can work online and offline from any device. The documents app bundles and brings structure to Office 365, the fileserver, OneDrive and SharePoint.</p>
+          <h4>Gestión de documentos</h4>
+          <p>Reúna todos los documentos en un único lugar de trabajo en línea. Para que puedas trabajar en línea y sin conexión desde cualquier dispositivo. La aplicación de documentos agrupa y estructura Office 365, el servidor de archivos, OneDrive y SharePoint.</p>
         </li>
       </ul>
     </section>
@@ -70,25 +70,25 @@
     <section class="price">
       <div class="price-box">
         <hr class="line">
-        <h2>Pricing</h2>
+        <h2>Precios</h2>
         <hr class="line">
       </div>
 
   
       <ul class="options">
       <li>
-        <h3>140€/mo.</h3>
-        <p>1-50 users</p>
+        <h3>140€ / mes</h3>
+        <p>1-50 usuarios</p>
       </li>
       <li>
-        <h3>760€/mo.</h3>
-        <p>51-500 users</p>
+        <h3>760€ / mes</h3>
+        <p>51-500 usuarios</p>
       </li>
     </ul>
     
     </section>
     </main>
-    
+
  <!-- POPUP SIGN-UP  -->
  <section class="popup">
   <div class="popup-content">
@@ -107,14 +107,14 @@
       />
     </svg>
 
-    <h1 class="signUp-title">Sign up for Newsletter !</h1>
+    <h1 class="signUp-title">Suscríbase a nuestro boletín !</h1>
     <p class="singUp-additional">
-      You will get only notifications about our activity and products.
+      Recibirás únicamente notificaciones sobre nuestra actividad y productos.
     </p>
 
     <form action="<?=$_SERVER['PHP_SELF']?>" method="POST" class="signUp-form" id="signupForm">
-<input class="email" type="email" placeholder="Email Address" id="emailInput" />
-<input class="submit" type="submit" value="Sign In" />
+<input class="email" type="email" placeholder="El email" id="emailInput" />
+<input class="submit" type="submit" value="Registrarse" />
 <div id="error-message"></div>
     </form>
   </div>
@@ -122,7 +122,7 @@
 
 
     <footer class="Newspage-footer">
-      <h3 class="follow">Follow us on</h3>
+      <h3 class="follow">Síguenos en</h3>
       <aside class="ReadMore-footer-content">
         <section class="social-block">
           <img src="../Images/image 16.png" alt="instagram" class="social-img" />
@@ -146,11 +146,11 @@
           </div>
         </section>
 
-        <button id="openPopup">Sing up for Newsletter !</button>
+        <button id="openPopup">Suscríbase a nuestro boletín !</button>
       </aside>
 
       <p class="copyright">
-        Copyright &copy; 2023 Circle Solutions Inc. All rights reserved.
+        Copyright &copy; 2023 Circle Solutions Inc. Todos los derechos reservados.
       </p>
     </footer>
     <script>

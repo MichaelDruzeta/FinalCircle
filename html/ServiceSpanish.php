@@ -4,36 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
-    <link href="../css/ServiceDarkMode.css" rel="stylesheet">
+    <link href="../css/service.css" rel="stylesheet">
 </head>
 <body class="Service-body">
   <header class="top-bar">
-    <a href="../html/HomepageSP.html">
+    <a href="../html/HomepageSP.php">
      <img class="logo" src="../Images/circle solutions_logo_02.png" alt="logo" />
     </a>
     <nav>
       <div class="nav-bar left">
-        <a class="effectHov" href="../html/ServiceSpanishDM.html"><b>Servicios</b></a>
-        <a class="effectHov" href="../html/Noticiasdark.html"><b>Noticias</b></a>
-        <a class="effectHov" href="../html/AboutUsDark - Spanish.html"><b>Sobre nosotros</b></a>
+        <a class="effectHov" href="../html/ServiceSpanish.php"><b>Servicios</b></a>
+        <a class="effectHov" href="../html/Noticiaslight.php"><b>Noticias</b></a>
+        <a class="effectHov" href="../html/AboutUs - Spanish.php"><b>Sobre nosotros</b></a>
       </div>
       <div class="nav-bar right">
-        <a href="../html/ContactPageDrakModeSpanish.php" class="contact-button">Contáctamos</a>
+        <a href="../html/ContactPageSpanish.php" class="contact-button">Contáctamos</a>
         <div class="language-menu">
           <img class="icon" src="../Images/internet.png" alt="language" />
         </a>
         <ul class="lang">
           <li>
             <img src="../Images/english.png" alt="eng" />
-            <a href="../html/service.html">English</a>
+            <a href="../html/service.php">English</a>
           </li>
           <li>
             <img src="../Images/spanish.png" alt="sp" />
-            <a href="../html/ServiceSpanish.html">Spanish</a>
+            <a href="../html/ServiceSpanish.php">Spanish</a>
           </li>
         </ul>
         </div>
-        <a href="../html/ServiceSpanish.html">
+        <a href="../html/ServiceSpanishDM.php">
           <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
         </a>
       </div>
@@ -80,7 +80,7 @@
           <li>Comunicación e información</li>
           <li>Gestión de documentos</li>
         </ul>
-        <a href="../html/Product_page_light_mode1 - Spanish.html">
+        <a href="../html/Product_page_light_mode1 - Spanish.php">
           <div class="Learn-more-button1">Aprende más</div></a>
       </div>
       <div class="D.O.T.S.">
@@ -92,7 +92,7 @@
           <li>Conocimiento administrativo</li>
           <li>Analizar y optimizar</li>
         </ul>
-        <a href="../html/Product_page_light_mode2 - Spanish.html">
+        <a href="../html/Product_page_light_mode2 - Spanish.php">
           <div class="Learn-more-button2">Aprende más</div></a>
       </div>
     </div>

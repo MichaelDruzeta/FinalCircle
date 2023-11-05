@@ -9,17 +9,17 @@
   <body>
 
     <header class="top-bar">
-      <a href="HomedarkSP.html">
+      <a href="Homedark.php">
         <img class="logo" src="../Images/circle solutions_logo_02.png" alt="logo" />
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceSpanishDM.html">Servicios</a>
-          <a href="Noticiasdark.html">Noticias</a>
-          <a href="AboutUsDark - Spanish.html">Sombre Nosotro</a>
+          <a href="ServiceDarkMode.php">Services</a>
+          <a href="NewspageDarkMode.php">News</a>
+          <a href="AboutUsDark.php">About Us</a>
         </div>
         <div class="nav-bar right">
-          <a href="ContactPageDarkModeSpanish.php" class="contact-button">Contáctenos</a>
+          <a href="ContactPageDarkMode.php" class="contact-button">Contact Us</a>
           <div class="language-menu">
             <a href="#">
               <img class="icon" src="../Images/internet.png" alt="language" />
@@ -28,15 +28,15 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="Product_page_dark_mode2.html">Inglés</a>
+                <a href="#">English</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="#">Español</a>
+                <a href="Product_page_dark_mode1 - Spanish.php">Spanish</a>
               </li>
             </ul>
           </div>
-          <a href="Product_page_light_mode2 - Spanish.html">
+          <a href="Product_page_light_mode1.php">
             <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
           </a>
           </a>
@@ -47,42 +47,46 @@
     <!-- CONTENT ABOUT THE PRODUCT -->
     <main>
       
-      <img  src="../Images/product-image1.jpg" alt="CircleWorkspace">
-      <section class="info-description">
-      <h1>Circle Workspace</h1>
+      <img  src="../Images/product-image2.jpg" alt="CircleWorkspace" class="img">
+      <section class="info-description info-description2">
+      <h1>Circle D.O.T.S</h1>
 
       <ul>
         <li>
-          <h4>Gestión de aplicaciones</h4>
-          <p>Cree un lugar de trabajo en cuestión de minutos. También queremos facilitar el trabajo a los administradores de puestos de trabajo. Hacemos posible la creación de un puesto de trabajo basado en funciones y condiciones que combina todas sus tecnologías actuales y futuras en un único puesto de trabajo.</p>
+          <h4>Internal communications</h4>
+          <p>Keep everyone informed, no matter the change, things change – especially in the world today. Keeping everyone on the same page is a challenge for global businesses. Circle D.O.T.S. makes it easy to target and distribute news to the right people, analyse the impact and optimize the message. The result? Everyone gets where you’re going.</p>
         </li>
         <li>
-          <h4>Comunicación e información</h4>
-          <p>Visualiza la información de las aplicaciones directamente en Circle Workspace. De un vistazo, vea todos sus correos electrónicos no leídos, citas, noticias, documentos editados recientemente y mucho más.</p>
+          <h4>Connect and engage</h4>
+          <p>Connect your colleagues and engage communities. If people don’t know each other, they can’t trust each other. If teams don’t know what they’re doing, they can’t help each other. Circle D.O.T.S. connects teams and people in an organic way – by letting them form Channels and Pages around projects, interests or social initiatives. No more unfamiliar faces, even if you’re fully remote.</p>
         </li>
         <li>
-          <h4>Gestión de documentos</h4>
-          <p>Reúna todos los documentos en un único lugar de trabajo en línea. Para que puedas trabajar en línea y sin conexión desde cualquier dispositivo. La aplicación de documentos agrupa y estructura Office 365, el servidor de archivos, OneDrive y SharePoint.</p>
+          <h4>Knowledge management</h4>
+          <p>When people say “I love my job”, they’re not talking about the 7.6 hours per week spent trying to find information they need to do their work. Circle D.O.T.S. brings all your disparate resources, applications and knowledge together in one easily structured and searchable home.</p>
+        </li>
+        <li>
+          <h4>Analyse and optimize</h4>
+          <p>For a better working environment, what can be measured, can be improved. Circle D.O.T.S. helps you to shift from a “send and forget” to an “analyse and optimize” mindset, making it easier to experiment and evaluate in a data-driven way. The secret weapon? The world’s friendliest Analytics dashboard.</p>
         </li>
       </ul>
     </section>
 
-    <section class="price">
+    <section class="price price2">
       <div class="price-box">
         <hr class="line">
-        <h2>Precios</h2>
+        <h2>Pricing</h2>
         <hr class="line">
       </div>
 
   
       <ul class="options">
       <li>
-        <h3>140€ / mes</h3>
-        <p>1-50 usuarios</p>
+        <h3>180€/mo.</h3>
+        <p>1-50 users</p>
       </li>
       <li>
-        <h3>760€ / mes</h3>
-        <p>51-500 usuarios</p>
+        <h3>799€/mo.</h3>
+        <p>51-500 users</p>
       </li>
     </ul>
     
@@ -107,14 +111,14 @@
       />
     </svg>
 
-    <h1 class="signUp-title">Suscríbase a nuestro boletín !</h1>
+    <h1 class="signUp-title">Sign up for Newsletter !</h1>
     <p class="singUp-additional">
-      Recibirás únicamente notificaciones sobre nuestra actividad y productos.
+      You will get only notifications about our activity and products.
     </p>
 
     <form action="<?=$_SERVER['PHP_SELF']?>" method="POST" class="signUp-form" id="signupForm">
-<input class="email" type="email" placeholder="El email" id="emailInput" />
-<input class="submit" type="submit" value="Registrarse" />
+<input class="email" type="email" placeholder="Email Address" id="emailInput" />
+<input class="submit" type="submit" value="Sign In" />
 <div id="error-message"></div>
     </form>
   </div>
@@ -122,7 +126,7 @@
 
 
     <footer class="Newspage-footer">
-      <h3 class="follow">Síguenos en</h3>
+      <h3 class="follow">Follow us on</h3>
       <aside class="ReadMore-footer-content">
         <section class="social-block">
           <img src="../Images/image 16.png" alt="instagram" class="social-img" />
@@ -146,11 +150,11 @@
           </div>
         </section>
 
-        <button id="openPopup">Suscríbase a nuestro boletín !</button>
+        <button id="openPopup">Sing up for Newsletter !</button>
       </aside>
 
       <p class="copyright">
-        Copyright &copy; 2023 Circle Solutions Inc. Todos los derechos reservados.
+        Copyright &copy; 2023 Circle Solutions Inc. All rights reserved.
       </p>
     </footer>
     <script>

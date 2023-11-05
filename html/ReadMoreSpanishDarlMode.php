@@ -3,16 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="../css/ReadMoreLightMode.css"
-      type="text/css"
-    />
-    <title>Leer más página dark-mode</title>
+    <link rel="stylesheet" href="../css/ReadMoreDarkMode.css" type="text/css" />
+    <title>Leer más página</title>
   </head>
   <body>
     <header>
-      <a href="HomepageSP.html">
+      <a href="HomedarkSP.php">
         <img
           class="logo"
           src="../Images/circle solutions_logo_02.png"
@@ -21,12 +17,12 @@
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceSpanish.html"><b>Servicios</b></a>
-          <a href="Noticiaslight.html"><b>Noticias</b></a>
-          <a href="AboutUs - Spanish.html"><b>Sobre nosotros</b></a>
+          <a href="ServiceSpanishDM.php"><b>Servicios</b></a>
+          <a href="Noticiasdark.php"><b>Noticias</b></a>
+          <a href="AboutUsDark - Spanish.php"><b>Sobre nosotros</b></a>
         </div>
         <div class="nav-bar right">
-          <a href="ContactPageSpanish.php" class="contact-button"
+          <a href="ContactPageDarkModeSpanish.php" class="contact-button"
             ><b>Contáctamos</b></a
           >
           <div class="language-menu">
@@ -37,15 +33,15 @@
             <ul class="lang">
               <li>
                 <img src="../Images/english.png" alt="eng" />
-                <a href="ReadMore.html">Inglés</a>
+                <a href="ReadMoreDarkMode.php">Inglés</a>
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="ReadMoreSpanish.html">Español</a>
+                <a href="ReadMoreSpanishDarlMode.php">Español</a>
               </li>
             </ul>
           </div>
-          <a href="ReadMoreSpanishDarlMode.html">
+          <a href="ReadMoreSpanish.php">
             <img class="icon" src="../Images/dark-mode.png" alt="dark-mode" />
           </a>
         </div>

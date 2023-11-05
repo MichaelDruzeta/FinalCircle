@@ -12,7 +12,7 @@
   </head>
   <body>
     <header class="top-bar">
-      <a href="HomedarkSP.html">
+      <a href="HomedarkSP.php">
         <img
           class="logo"
           src="../Images/circle solutions_logo_02.png"
@@ -21,9 +21,9 @@
       </a>
       <nav>
         <div class="nav-bar left">
-          <a href="ServiceSpanishDM.html"><b>Servicios</b></a>
-          <a href="Noticiasdark.html"><b>Noticias</b></a>
-          <a href="AboutUsDark - Spanish.html"><b>Sobre nosotros</b></a>
+          <a href="ServiceSpanishDM.php"><b>Servicios</b></a>
+          <a href="Noticiasdark.php"><b>Noticias</b></a>
+          <a href="AboutUsDark - Spanish.php"><b>Sobre nosotros</b></a>
         </div>
         <div class="nav-bar right">
           <a href="ContactPageDarkModeSpanish.php" class="contact-button"
@@ -107,9 +107,9 @@
           $phone =filter_input(INPUT_POST, "phone");
 
           if(empty($name) && empty($email) && empty($phone)){
-            echo '<p class="fail">*Please fill in all fields</p>';
+            echo '<p class="fail">*Por favor rellena todos los campos</p>';
           }else{
-            echo '<p class="success">Sent successfully</p>';
+            echo '<p class="success">Enviado correctamente</p>';
           }
         }
         ?>
