@@ -40,7 +40,7 @@
               </li>
               <li>
                 <img src="../Images/spanish.png" alt="sp" />
-                <a href="../html/HomepageSP.php">Español</a>php
+                <a href="../html/HomepageSP.php">Español</a>
               </li>
             </ul>
           </div>
