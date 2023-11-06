@@ -254,7 +254,7 @@
       </div>
 
       <div class="faqQ">
-        What is an intranet portal?php
+        What is an intranet portal?
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
