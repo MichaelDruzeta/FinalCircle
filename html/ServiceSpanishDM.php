@@ -80,7 +80,7 @@
           <li>Comunicación e información</li>
           <li>Gestión de documentos</li>
         </ul>
-        <a href="../html/Product_page_light_mode1 - Spanish.php">
+        <a href="../html/Product_page_light_mode2 - Spanish.php">
           <div class="Learn-more-button1">Aprende más</div></a>
       </div>
       <div class="D.O.T.S.">
@@ -92,7 +92,7 @@
           <li>Conocimiento administrativo</li>
           <li>Analizar y optimizar</li>
         </ul>
-        <a href="../html/Product_page_light_mode2 - Spanish.php">
+        <a href="../html/Product_page_light_mode1 - Spanish.php">
           <div class="Learn-more-button2">Aprende más</div></a>
       </div>
     </div>

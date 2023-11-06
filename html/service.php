@@ -82,7 +82,7 @@
             <li>Communication and Information</li>
             <li>Document management</li>
           </ul>
-            <a href="../html/Product_page_light_mode1.php">
+            <a href="../html/Product_page_light_mode2.php">
               <div class="Learn-more-button1">Learn more</div></a>
         </div>
         <div class="DOTS">
@@ -95,7 +95,7 @@
             <li>Analyze and optimise</li>
           </ul>
             <a href="../html/Product_page_light_mode2.php">
-              <div class="Learn-more-button2">Learn more</div></a>
+              <div class="Learn-more-button1">Learn more</div></a>
         </div>
       </div>
     </main>

@@ -47,7 +47,7 @@
     <!-- CONTENT ABOUT THE PRODUCT -->
     <main>
       
-      <img  src="../Images/product-image2.jpg"" alt="CircleWorkspace" class="img">
+      <img  src="../Images/product-image1.jpg"" alt="CircleWorkspace" class="img">
       <section class="info-description info-description2">
       <h1>Circle D.O.T.S.</h1>
 
