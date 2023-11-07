@@ -313,10 +313,10 @@ button:hover {
 }
 /* FOOTER ABOUT THE SOCIAL-MEDIA  */
 .Newspage-footer {
-  margin-top: 1rem;
+  margin-top: 5rem;
   background-color: #c7eaf8;
   width: 100%;
-  bottom: 0;
+  
 }
 .ReadMore-footer-content {
   display: grid;
